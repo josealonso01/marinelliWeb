@@ -10,6 +10,22 @@ sans-serif;
 
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800";
 
+@font-face {
+    font-family: "Rubik";
+    src        : url("../assets/fonts/Rubik-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Cormorant Garamond";
+    src        : url("../assets/fonts/CormorantGaramond-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Outfit";
+    src        : url("../assets/fonts/Outfit-Regular.ttf");
+}
+
+
 @-webkit-keyframes ytp-spinner-linspin {
     to {
         -webkit-transform: rotate(360deg);
@@ -448,6 +464,7 @@ p {
     background-repeat  : no-repeat;
     width              : 100%;
     height             : 100%;
+    fill               : linear-gradient(354deg, rgba(34, 23, 18, 0.00) 4.67%, #221712 99.42%);
 }
 
 .section-title {
@@ -754,15 +771,14 @@ p {
 }
 
 .navbar-area {
-    background        : -webkit-linear-gradient(left, #43cae9 0%, #38f9d7 100%);
-    background        : -o-linear-gradient(left, #43cae9 0%, #38f9d7 100%);
-    background        : linear-gradient(to right, #43cae9 0%, #38f9d7 100%);
+    background        : #73020C;
     padding           : 10px 0;
     position          : absolute;
     top               : 0;
     left              : 0;
     width             : 100%;
     z-index           : 999;
+    height            : 58px;
     -webkit-transition: all 0.3s ease-out 0s;
     -moz-transition   : all 0.3s ease-out 0s;
     -ms-transition    : all 0.3s ease-out 0s;
@@ -770,8 +786,13 @@ p {
     transition        : all 0.3s ease-out 0s;
 
     .navbar-brand {
+        display       : inline-block;
+        padding-bottom: 25px;
+
         img {
             max-width: 150px;
+            position : relative;
+            top      : -5px;
         }
     }
 
@@ -828,28 +849,26 @@ p {
                 position: relative;
 
                 a {
-                    font-size         : 16px;
-                    line-height       : 24px;
-                    font-weight       : 700;
-                    padding           : 11px 16px;
-                    color             : $color_5;
-                    text-transform    : uppercase;
-                    position          : relative;
-                    border-radius     : 5px;
-                    -webkit-transition: all 0.3s ease-out 0s;
-                    -moz-transition   : all 0.3s ease-out 0s;
-                    -ms-transition    : all 0.3s ease-out 0s;
-                    -o-transition     : all 0.3s ease-out 0s;
-                    transition        : all 0.3s ease-out 0s;
-                    margin            : 14px 0;
+                    padding    : 11px 16px;
+                    color      : #ECE6D3;
+                    font-family: Rubik;
+                    font-size  : 13px;
+                    font-style : normal;
+                    font-weight: 300;
+                    line-height: normal;
+                    position   : relative;
+                    bottom     : 15px;
 
                     &::before {
                         position          : absolute;
                         content           : '';
                         width             : 32px;
                         height            : 4px;
-                        background-color  : #fff;
+                        background-color  : #C0BFB2;
+                        font-weight       : 600;
                         left              : 50%;
+                        width             : 37px;
+                        height            : 2px;
                         bottom            : 0;
                         -webkit-transition: all 0.3s ease-out 0s;
                         -moz-transition   : all 0.3s ease-out 0s;
@@ -1007,6 +1026,8 @@ p {
 
             .nav-item.active {
                 >a {
+                    font-weight: 600;
+
                     &::before {
                         -webkit-transform: translateX(-50%) scaleX(1);
                         -moz-transform   : translateX(-50%) scaleX(1);
@@ -1306,7 +1327,6 @@ p {
 }
 
 .slider-area {
-    padding-top: 94px;
 
     .bd-example {
         .carousel {
@@ -1328,10 +1348,38 @@ p {
                         left             : 0;
 
                         .carousel-title {
-                            font-size  : 44px;
-                            font-weight: 700;
-                            color      : $color_5;
-                            line-height: 55px;
+                            color         : #FCFCFC;
+                            text-align    : center;
+                            font-family   : Cormorant Garamond;
+                            font-size     : 70px;
+                            font-style    : normal;
+                            font-weight   : 500;
+                            line-height   : 74.211px;
+                            text-transform: capitalize;
+
+                            p {
+                                color         : #FCFCFC;
+                                font-family   : Cormorant Garamond;
+                                font-size     : 70px;
+                                font-style    : normal;
+                                font-weight   : 700;
+                                line-height   : 74.211px;
+                                text-transform: capitalize;
+                            }
+                        }
+
+                        .carousel-subtitle {
+                            color         : #FFF;
+                            font-family   : Rubik;
+                            font-size     : 15px;
+                            font-style    : normal;
+                            font-weight   : 400;
+                            line-height   : normal;
+                            letter-spacing: 4.453px;
+                            text-transform: uppercase;
+                            width         : 650px;
+                            height        : 18px;
+                            padding-top   : 24px;
                         }
 
                         .carousel-btn {
@@ -1533,7 +1581,7 @@ p {
 
 .about-area {
     position        : relative;
-    background-color: #f4f6f7;
+    background-color: #fff;
     padding-top     : 100px;
     padding-bottom  : 100px;
 
@@ -1554,288 +1602,139 @@ p {
     }
 }
 
-.single-about {
-    .about-icon {
-        img {
-            width: 120px;
-        }
-    }
-
-    .about-content {
-        padding-left: 30px;
-
-        .about-title {
-            font-size  : 20px;
-            font-weight: 600;
-            line-height: 25px;
-            color      : $color_1;
-        }
-
-        .text {
-            font-size : 16px;
-            color     : $color_1;
-            margin-top: 16px;
-        }
-    }
-}
-
-.about-area-2 {
-    position      : relative;
-    padding-top   : 120px;
-    padding-bottom: 120px;
-
-    .about-image {
-        position: absolute;
-        width   : 40%;
-        height  : 100%;
-        top     : 0;
-        right   : 0;
-
-        .image {
-            max-width: 580px;
-            width    : 100%;
-
-            img {
-                width: 100%;
-            }
-        }
-    }
-}
-
-.about-content-2 {
+.cards {
     position: relative;
-    z-index : 9;
+    top     : -75px;
+    margin  : auto;
+}
 
-    .about-icon {
-        i {
-            font-size: 64px;
-            color    : $color_4;
-        }
+.rowCards {
+    display        : -ms-flexbox;
+    display        : flex;
+    -ms-flex-wrap  : wrap;
+    margin-inline  : 200px;
+    flex-wrap      : nowrap;
+    justify-content: center;
+    align-items    : center;
+
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    position       : absolute;
+    top            : 0;
+    bottom         : 0;
+    z-index        : 1;
+    display        : -ms-flexbox;
+    display        : flex;
+    -ms-flex-align : center;
+    align-items    : center;
+    -ms-flex-pack  : center;
+    justify-content: center;
+    width          : 20%;
+    color          : black;
+    text-align     : center;
+    align-content  : center;
+    flex-wrap      : wrap;
+    top            : 645px;
+    flex-direction : row;
+}
+
+.card {
+    width        : 275px;
+    height       : 246px;
+    margin       : auto;
+    flex-shrink  : 0;
+    border-radius: 20px;
+    background   : #D6CCBF;
+    box-shadow   : 2px 2px 16px 0px rgba(0, 0, 0, 0.25);
+
+    h4 {
+        padding-top: 30px;
+        color      : #73020C;
+        font-family: Cormorant Garamond;
+        font-size  : 24px;
+        font-style : normal;
+        font-weight: 700;
+        line-height: 114.6%;
     }
 
-    .about-content {
-        padding-left: 15px;
-
-        .about-title {
-            font-size  : 24px;
-            font-weight: 500;
-            line-height: 30px;
-            color      : $color_1;
-        }
-
-        .text {
-            font-size  : 14px;
-            line-height: 20px;
-            color      : $color_1;
-            margin-top : 8px;
-        }
+    p {
+        color      : #727272;
+        font-family: Outfit;
+        font-size  : 13px;
+        font-style : normal;
+        font-weight: 400;
+        line-height: 140%;
+        /* 18.2px */
     }
 }
 
-.about-area-3 {
-    background-color: #f4f6f7;
-    padding-top     : 50px;
-    padding-bottom  : 100px;
 
-    .image {
-        width: 100%;
-    }
-
-    .about-content {
-        .sub-title {
-            color         : $color_1;
-            font-size     : 24px;
-            line-height   : 30px;
-            font-weight   : 700;
-            text-transform: uppercase;
-        }
-
-        .about-title {
-            font-size  : 44px;
-            font-weight: 500;
-            line-height: 55px;
-            color      : $color_1;
-            margin-top : 16px;
-        }
-
-        .text {
-            color      : $color_2;
-            font-size  : 20px;
-            font-weight: 500;
-            margin-top : 16px;
-            line-height: 25px;
-        }
-    }
-}
-
-.about-area-3.about-area-bg-3 {
-    background-color: #fff;
+.aboutText {
+    width      : 840px;
+    height     : 97px;
+    flex-shrink: 0;
+    color      : #1F2732;
+    text-align : center;
+    font-family: Cormorant Garamond;
+    font-size  : 40px;
+    font-style : normal;
+    font-weight: 700;
+    line-height: 114.6%;
+    margin     : auto;
 }
 
 .portfolio-area {
     padding-top   : 90px;
     padding-bottom: 100px;
+    width         : 100%;
+    height        : 760px;
+    flex-shrink   : 0;
+    background    : url('../assets/images/Rectangle\ 482.png'), url('../assets/images/pexels-taha-samet-arslan-7781900\ 1.png'), rgba(114, 16, 17, 0.95);
 }
 
-.portfolio-menu {
-    ul {
-        li {
-            font-size         : 16px;
-            font-weight       : 700;
-            color             : $color_2;
-            line-height       : 48px;
-            padding           : 0 30px;
-            position          : relative;
-            display           : inline-block;
-            z-index           : 5;
-            -webkit-transition: all 0.3s ease-out 0s;
-            -moz-transition   : all 0.3s ease-out 0s;
-            -ms-transition    : all 0.3s ease-out 0s;
-            -o-transition     : all 0.3s ease-out 0s;
-            transition        : all 0.3s ease-out 0s;
-            cursor            : pointer;
-            margin            : 0 2px;
 
-            &::before {
-                position          : absolute;
-                content           : '';
-                bottom            : 0;
-                left              : 0;
-                width             : 100%;
-                height            : 4px;
-                background        : -webkit-linear-gradient(left, #43cae9 0%, #38f9d7 100%);
-                background        : -o-linear-gradient(left, #43cae9 0%, #38f9d7 100%);
-                background        : linear-gradient(to right, #43cae9 0%, #38f9d7 100%);
-                z-index           : -1;
-                opacity           : 0;
-                -webkit-transition: all 0.3s ease-out 0s;
-                -moz-transition   : all 0.3s ease-out 0s;
-                -ms-transition    : all 0.3s ease-out 0s;
-                -o-transition     : all 0.3s ease-out 0s;
-                transition        : all 0.3s ease-out 0s;
-                border-radius     : 4px;
-            }
+.section-title {
+    padding-top: 100px;
 
-            &:hover {
-                color: $color_4;
+    .title {
+        margin     : auto;
+        width      : 480px;
+        height     : 84px;
+        flex-shrink: 0;
+        color      : #FFF;
+        text-align : center;
+        font-family: Cormorant Garamond;
+        font-size  : 40px;
+        font-style : normal;
+        font-weight: 700;
+        line-height: 114.6%;
+    }
 
-                &::before {
-                    opacity: 1;
-                }
-            }
-        }
+    .text {
+        margin     : auto;
+        width      : 1160px;
+        color      : #FFF;
+        text-align : center;
+        font-family: Outfit;
+        font-size  : 24px;
+        font-style : normal;
+        font-weight: 100;
+        line-height: 114.6%;
 
-        li.active {
-            color: $color_4;
-
-            &::before {
-                opacity: 1;
-            }
+        p {
+            margin: auto;
+            color      : #D1B06B;
+            font-family: Outfit;
+            font-size  : 24px;
+            font-style : normal;
+            font-weight: 300;
+            line-height: 114.6%;
         }
     }
 }
 
-.single-portfolio {
-    .portfolio-image {
-        position     : relative;
-        overflow     : hidden;
-        border-radius: 8px;
-
-        img {
-            width             : 100%;
-            -webkit-transition: all 0.3s ease-out 0s;
-            -moz-transition   : all 0.3s ease-out 0s;
-            -ms-transition    : all 0.3s ease-out 0s;
-            -o-transition     : all 0.3s ease-out 0s;
-            transition        : all 0.3s ease-out 0s;
-        }
-
-        .portfolio-overlay {
-            position          : absolute;
-            top               : 0;
-            left              : 0;
-            width             : 100%;
-            height            : 100%;
-            opacity           : 0;
-            visibility        : hidden;
-            -webkit-transition: all 0.5s ease-out 0s;
-            -moz-transition   : all 0.5s ease-out 0s;
-            -ms-transition    : all 0.5s ease-out 0s;
-            -o-transition     : all 0.5s ease-out 0s;
-            transition        : all 0.5s ease-out 0s;
-            background-color  : rgba(0, 0, 0, 0.8);
-            -webkit-transform : scale(0.95);
-            -moz-transform    : scale(0.95);
-            -ms-transform     : scale(0.95);
-            -o-transform      : scale(0.95);
-            transform         : scale(0.95);
-            border-radius     : 8px;
-
-            .portfolio-content {
-                padding: 16px;
-
-                .portfolio-icon {
-                    position: relative;
-                    display : inline-block;
-                    margin  : 0 20px;
-
-                    a {
-                        font-size  : 48px;
-                        color      : $color_4;
-                        position   : relative;
-                        z-index    : 5;
-                        line-height: 50px;
-                    }
-
-                    .shape {
-                        position: absolute;
-                        top     : 7px;
-                        left    : 0;
-                    }
-                }
-            }
-        }
-    }
-
-    .portfolio-text {
-        padding-top: 16px;
-
-        .portfolio-title {
-            a {
-                color             : $color_1;
-                font-size         : 24px;
-                line-height       : 30px;
-                -webkit-transition: all 0.3s ease-out 0s;
-                -moz-transition   : all 0.3s ease-out 0s;
-                -ms-transition    : all 0.3s ease-out 0s;
-                -o-transition     : all 0.3s ease-out 0s;
-                transition        : all 0.3s ease-out 0s;
-
-                &:hover {
-                    color: $color_4;
-                }
-            }
-        }
-
-        .text {
-            color      : $color_1;
-            font-size  : 14px;
-            line-height: 20px;
-            margin-top : 8px;
-        }
-    }
-
-    &:hover {
-        .portfolio-overlay {
-            opacity   : 1;
-            visibility: visible;
-        }
-    }
-}
-
-.portfolio-2 {
-    background-color: #f4f6f7;
-}
 
 .services-area {
     background-color: #f4f6f7;

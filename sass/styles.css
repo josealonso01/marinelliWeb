@@ -1295,98 +1295,88 @@ p {
       color: #fff; }
 
 .pricing-area {
-  background-color: #f4f6f7;
-  padding-top: 90px;
-  padding-bottom: 100px; }
+  width: 100%;
+  height: 705px; }
 
-.pricing-2 {
-  background-color: #fff; }
+.register-photo {
+  background: #f1f7fc; }
 
-.pricing-style-one {
-  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-  -moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-  padding: 24px 20px 38px;
-  border-radius: 8px;
+.register-photo .image-holder {
+  display: table-cell;
+  background: url("../assets/images/pexels-andrea-piacquadio-3771097 1.png");
+  background-repeat: no-repeat;
+  width: 730.435px;
+  height: 705px;
+  flex-shrink: 0; }
+
+.register-photo .form-container {
+  display: table;
+  width: 100%;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1); }
+
+.register-photo form {
+  display: table-cell;
+  width: 50%;
+  background-color: #ffffff;
+  padding: 40px 60px;
+  color: #505e6c; }
+
+@media (max-width: 991px) {
+  .register-photo form {
+    padding: 40px; } }
+
+.register-photo form h2 {
+  color: #1F2732;
+  text-align: center;
+  font-family: Cormorant Garamond;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 114.6%;
+  margin-bottom: 92px; }
+
+.register-photo form .form-control {
+  border: none;
+  border-bottom: 1px solid black;
+  border-radius: 0;
+  box-shadow: none;
+  outline: none;
+  color: #000;
+  font-family: Rubik;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 140%; }
+
+.inputEnviar {
+  display: flex;
+  width: 125px;
+  height: 49px;
+  padding: 10.647px 26.973px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 7.098px;
+  border: none;
   position: relative;
-  overflow: hidden;
-  background-color: #fff; }
-  .pricing-style-one .pricing-icon img {
-    width: 200px; }
-  .pricing-style-one .pricing-header .sub-title {
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 25px;
-    color: #121212;
-    position: relative;
-    margin-top: 24px; }
-  .pricing-style-one .pricing-header .month {
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 25px;
-    color: #6c6c6c;
-    margin-top: 3px; }
-    .pricing-style-one .pricing-header .month .price {
-      font-size: 36px;
-      font-weight: 600;
-      line-height: 45px;
-      color: #121212;
-      margin-top: 8px; }
-  .pricing-style-one .pricing-list {
-    margin-top: 24px; }
-    .pricing-style-one .pricing-list ul li {
-      font-size: 16px;
-      line-height: 24px;
-      color: #121212;
-      margin-top: 16px; }
-      .pricing-style-one .pricing-list ul li i {
-        color: #38f9d7;
-        margin-right: 8px; }
-  .pricing-style-one .pricing-btn {
-    margin-top: 31px; }
+  top: 65px;
+  background: #D1B06B;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #FFF;
+  font-family: Rubik;
+  font-size: 14.196px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize; }
 
-.pricing-style-two {
-  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-  -moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-  padding: 24px 20px;
-  border-radius: 8px;
-  position: relative;
-  overflow: hidden;
-  background-color: #fff; }
-  .pricing-style-two .pricing-icon img {
-    width: 112px; }
-  .pricing-style-two .pricing-header {
-    margin-top: 24px; }
-    .pricing-style-two .pricing-header .sub-title {
-      font-size: 20px;
-      font-weight: 600;
-      line-height: 25px;
-      color: #121212; }
-    .pricing-style-two .pricing-header .price {
-      display: block;
-      font-size: 64px;
-      font-weight: 600;
-      line-height: 80px;
-      color: #121212; }
-    .pricing-style-two .pricing-header .year {
-      font-size: 20px;
-      font-weight: 500;
-      line-height: 25px;
-      color: #6c6c6c;
-      margin-top: -10px; }
-  .pricing-style-two .pricing-list {
-    margin-top: 33px; }
-    .pricing-style-two .pricing-list ul li {
-      font-size: 16px;
-      line-height: 24px;
-      color: #121212;
-      margin-top: 16px; }
-      .pricing-style-two .pricing-list ul li i {
-        color: #38f9d7;
-        margin-right: 8px; }
-  .pricing-style-two .pricing-btn {
-    margin-top: 26px; }
+.register-photo form .already {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  color: #6f7a85;
+  opacity: 0.9;
+  text-decoration: none; }
 
 .call-action-area {
   padding-top: 50px;

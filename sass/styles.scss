@@ -1900,12 +1900,6 @@ p {
     text-transform : capitalize;
 }
 
-
-
-
-
-
-
 .register-photo form .already {
     display        : block;
     text-align     : center;
@@ -1918,122 +1912,44 @@ p {
 .call-action-area {
     padding-top   : 50px;
     padding-bottom: 100px;
-
-    .call-action-content {
-        .action-title {
-            font-size  : 32px;
-            font-weight: 600;
-            line-height: 40px;
-            color      : $color_1;
-        }
-
-        .text {
-            font-size  : 16px;
-            color      : $color_1;
-            line-height: 27px;
-            margin-top : 16px;
-        }
-    }
-
-    .call-action-form {
-        position: relative;
-
-        input {
-            width        : 100%;
-            height       : 60px;
-            border       : 1px solid #cbced1;
-            background   : none;
-            padding      : 0 25px;
-            border-radius: 50px;
-
-            &::placeholder {
-                opacity: 1;
-                color  : $color_6;
-            }
-
-            &::-moz-placeholder {
-                opacity: 1;
-                color  : $color_6;
-                opacity: 1;
-                color  : $color_6;
-            }
-
-            &::-webkit-input-placeholder {
-                opacity: 1;
-                color  : $color_6;
-            }
-
-            &:focus {
-                border-color: #38f9d7;
-            }
-        }
-
-        .action-btn {
-            position: absolute;
-            top     : 5px;
-            right   : 5px;
-        }
-    }
+    background    : #F2EFE9;
 }
 
-.call-action-2 {
-    background-color: #f4f6f7;
-}
+.toFind {
+    display        : flex;
+    flex-wrap      : nowrap;
+    align-content  : center;
+    justify-content: center;
+    align-items    : center;
 
-.call-action-3 {
-    background: -webkit-linear-gradient(left, #43cae9 0%, #38f9d7 50%, #43cae9 100%);
-    background: -o-linear-gradient(left, #43cae9 0%, #38f9d7 50%, #43cae9 100%);
-    background: linear-gradient(to right, #43cae9 0%, #38f9d7 50%, #43cae9 100%);
-
-    .call-action-content {
-        .action-title {
-            color: $color_5;
-        }
-
-        .text {
-            color: $color_5;
-        }
+    h2 {
+        color      : #800000;
+        font-family: Cormorant Garamond;
+        font-size  : 40px;
+        font-style : normal;
+        font-weight: 700;
+        line-height: 114.6%;
+        padding-top: 25px;
+        margin-left: -80px;
     }
 
-    .call-action-form {
-        input {
-            color       : $color_5;
-            border-color: #fff;
+    p {
+        color        : #D1B06B;
+        font-family  : Rubik;
+        font-size    : 18.5px;
+        font-style   : normal;
+        font-weight  : 500;
+        line-height  : 140%;
+        height       : 28px;
+        margin-left  : -185px;
+        margin-top   : 30px;
+        flex-shrink  : 0;
+        width        : 545px;
+        border-bottom: 1px solid #721011;
+    }
 
-            &::placeholder {
-                opacity: 1;
-                color  : $color_5;
-            }
-
-            &::-moz-placeholder {
-                opacity: 1;
-                color  : $color_5;
-                opacity: 1;
-                color  : $color_5;
-            }
-
-            &::-webkit-input-placeholder {
-                opacity: 1;
-                color  : $color_5;
-            }
-
-            &:focus {
-                border-color: #fff;
-            }
-        }
-
-        .action-btn {
-            .main-btn {
-                background-color: #fff;
-                color           : $color_4;
-                border-color    : #fff;
-
-                &:hover {
-                    background-color: rgba(255, 255, 255, 0.3);
-                    color           : $color_5;
-                }
-            }
-        }
+    button {
+        border: none;
     }
 }
 

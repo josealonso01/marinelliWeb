@@ -235,10 +235,7 @@
     opacity: 1; } }
 
 body {
-  font-family: "Poppins", sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  color: #121212;
+  max-width: 100%;
   overflow-x: hidden; }
 
 * {
@@ -478,6 +475,8 @@ p {
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s; }
+  .navbar-area .container {
+    max-width: 2560px; }
   .navbar-area .navbar-brand {
     display: inline-block;
     padding-bottom: 25px; }
@@ -1214,7 +1213,7 @@ p {
   height: 705px; }
 
 .register-photo {
-  background: #f1f7fc; }
+  background: white; }
 
 .register-photo .image-holder {
   display: table-cell;
@@ -1324,7 +1323,7 @@ p {
     margin-left: -185px;
     margin-top: 30px;
     flex-shrink: 0;
-    width: 545px;
+    width: 490px;
     border-bottom: 1px solid #721011; }
   .toFind button {
     border: none; }

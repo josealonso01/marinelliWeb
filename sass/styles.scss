@@ -327,10 +327,7 @@ sans-serif;
 }
 
 body {
-    font-family: $font-family_1;
-    font-weight: normal;
-    font-style : normal;
-    color      : $color_1;
+    max-width: 100%;
     overflow-x : hidden;
 }
 
@@ -628,6 +625,10 @@ p {
     -ms-transition    : all 0.3s ease-out 0s;
     -o-transition     : all 0.3s ease-out 0s;
     transition        : all 0.3s ease-out 0s;
+
+    .container {
+        max-width: 2560px;
+    }
 
     .navbar-brand {
         display       : inline-block;
@@ -1533,6 +1534,7 @@ p {
     margin-inline: 9%;
 }
 
+
 .modal-content {
     margin       : auto;
     width        : 974px;
@@ -1704,7 +1706,7 @@ p {
 }
 
 .register-photo {
-    background: #f1f7fc;
+    background: white;
 }
 
 .register-photo .image-holder {
@@ -1828,7 +1830,7 @@ p {
         margin-left  : -185px;
         margin-top   : 30px;
         flex-shrink  : 0;
-        width        : 545px;
+        width        : 490px;
         border-bottom: 1px solid #721011;
     }
 
@@ -2229,6 +2231,7 @@ p {
     }
 
     .navbar-area {
+
         padding: 10px 0;
 
         .navbar {

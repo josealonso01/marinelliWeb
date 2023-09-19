@@ -4,7 +4,6 @@ $color_3: #666;
 $color_4: #38f9d7;
 $color_5: #fff;
 $color_6: #a4a4a4;
-$color_7: #fc3832;
 $font-family_1: "Poppins",
 sans-serif;
 
@@ -1449,7 +1448,7 @@ p {
 
 .cards {
     position: relative;
-    top     : -75px;
+    top     : -160px;
     margin  : auto;
 }
 
@@ -1457,7 +1456,7 @@ p {
     display        : -ms-flexbox;
     display        : flex;
     -ms-flex-wrap  : wrap;
-    margin-inline  : 200px;
+    margin-inline  : 80px;
     flex-wrap      : nowrap;
     justify-content: center;
     align-items    : center;
@@ -1476,12 +1475,12 @@ p {
     align-items    : center;
     -ms-flex-pack  : center;
     justify-content: center;
-    width          : 20%;
+    width          : 10%;
     color          : black;
     text-align     : center;
     align-content  : center;
     flex-wrap      : wrap;
-    top            : 645px;
+    bottom         : 75%;
     flex-direction : row;
 }
 
@@ -1529,9 +1528,9 @@ p {
 }
 
 .modal.show .modal-dialog {
-    margin     : auto;
-    padding-top: 25%;
-    margin-inline: 15%;
+    margin       : auto;
+    padding-top  : 19%;
+    margin-inline: 9%;
 }
 
 .modal-content {
@@ -2154,7 +2153,7 @@ p {
 
 .back-to-top {
     font-size         : 20px;
-    color             : $color_1;
+    color             : #73020C;
     position          : fixed;
     right             : 20px;
     bottom            : 20px;
@@ -2162,7 +2161,7 @@ p {
     height            : 45px;
     line-height       : 45px;
     border-radius     : 50%;
-    background-color  : #38f9d7;
+    background-color  : #D6CCBF;
     text-align        : center;
     z-index           : 99;
     -webkit-transition: all 0.3s ease-out 0s;
@@ -2173,8 +2172,8 @@ p {
     display           : none;
 
     &:hover {
-        color           : $color_1;
-        background-color: #38f9d7;
+        color           : #D6CCBF;
+        background-color: #73020C;
     }
 }
 
@@ -2308,7 +2307,6 @@ p {
                         font-size : 16px;
                         background: none;
                         border    : 0;
-                        color     : $color_5;
                     }
                 }
             }

@@ -838,7 +838,8 @@ p {
         font-style: normal;
         font-weight: 500;
         line-height: 74.211px;
-        text-transform: capitalize; }
+        text-transform: capitalize;
+        margin-bottom: 85px; }
         .slider-area .bd-example .carousel .carousel-inner .carousel-item .carousel-caption .carousel-title p {
           color: #FCFCFC;
           font-family: Cormorant Garamond;
@@ -858,7 +859,9 @@ p {
         text-transform: uppercase;
         width: 650px;
         height: 18px;
-        padding-top: 24px; }
+        position: relative;
+        right: 5%;
+        bottom: 25%; }
       .slider-area .bd-example .carousel .carousel-inner .carousel-item .carousel-caption .carousel-btn li {
         display: inline-block;
         margin: 16px 8px 0; }
@@ -1018,10 +1021,10 @@ p {
   margin: auto; }
 
 .rowCards {
-  display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  margin-inline: 80px;
+  width: 974px;
+  margin-inline: auto;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center; }
@@ -1038,7 +1041,7 @@ p {
   align-items: center;
   -ms-flex-pack: center;
   justify-content: center;
-  width: 10%;
+  width: 15%;
   color: black;
   text-align: center;
   align-content: center;
@@ -1083,9 +1086,7 @@ p {
     background: none; }
 
 .modal.show .modal-dialog {
-  margin: auto;
-  padding-top: 19%;
-  margin-inline: 9%; }
+  margin-inline: 15%; }
 
 .modal-content {
   margin: auto;

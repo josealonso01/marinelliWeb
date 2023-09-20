@@ -327,8 +327,8 @@ sans-serif;
 }
 
 body {
-    max-width: 100%;
-    overflow-x : hidden;
+    max-width : 100%;
+    overflow-x: hidden;
 }
 
 * {
@@ -1728,7 +1728,7 @@ p {
     display         : table-cell;
     width           : 50%;
     background-color: #ffffff;
-    padding         : 40px 60px;
+    padding         : 126px 60px;
     color           : #505e6c;
 }
 
@@ -1739,14 +1739,13 @@ p {
 }
 
 .register-photo form h2 {
-    color        : #1F2732;
-    text-align   : center;
-    font-family  : Cormorant Garamond;
-    font-size    : 40px;
-    font-style   : normal;
-    font-weight  : 700;
-    line-height  : 114.6%;
-    margin-bottom: 92px;
+    color      : #1F2732;
+    text-align : center;
+    font-family: Cormorant Garamond;
+    font-size  : 40px;
+    font-style : normal;
+    font-weight: 700;
+    line-height: 114.6%;
 }
 
 .register-photo form .form-control {
@@ -1808,6 +1807,11 @@ p {
     justify-content: center;
     align-items    : center;
 
+    img {
+        position: relative;
+        left    : 10%;
+    }
+
     h2 {
         color      : #800000;
         font-family: Cormorant Garamond;
@@ -1815,8 +1819,9 @@ p {
         font-style : normal;
         font-weight: 700;
         line-height: 114.6%;
+        position   : relative;
         padding-top: 25px;
-        margin-left: -80px;
+        right      : 15%;
     }
 
     p {
@@ -1827,11 +1832,12 @@ p {
         font-weight  : 500;
         line-height  : 140%;
         height       : 28px;
-        margin-left  : -185px;
-        margin-top   : 30px;
+        position     : relative;
+        margin-top   : 25px;
         flex-shrink  : 0;
         width        : 490px;
-        border-bottom: 1px solid #721011;
+        border-bottom: 2px solid #721011;
+        right        : 50%;
     }
 
     button {

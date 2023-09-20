@@ -302,4 +302,26 @@ $(function () {
 
   //=====
 });
+document.addEventListener('DOMContentLoaded', function () {
+  const infoButtons = document.querySelectorAll('.info-button');
+  const modal = document.querySelector('.modal');
 
+  infoButtons.forEach((button) => {
+    button.addEventListener('click', function () {
+      const card = this.closest('.card');
+      if (card) {
+        const cardRect = card.getBoundingClientRect();
+        modal.style.top = `${cardRect.top}px`;
+        modal.style.left = `${cardRect.left}px`;
+        modal.style.display = 'block';
+      }
+    });
+  });
+
+  // Close modal when clicking outside of it
+  modal.addEventListener('click', function (event) {
+    if (event.target === this) {
+      modal.style.display = 'none';
+    }
+  });
+});

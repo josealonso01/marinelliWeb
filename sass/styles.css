@@ -878,7 +878,6 @@ p {
   width: auto;
   height: auto;
   font-size: 70px;
-  color: #fff;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -899,7 +898,6 @@ p {
   width: auto;
   height: auto;
   font-size: 70px;
-  color: #fff;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -1086,7 +1084,8 @@ p {
     background: none; }
 
 .modal.show .modal-dialog {
-  margin-inline: 15%; }
+  margin: auto;
+  position: absolute; }
 
 .modal-content {
   margin: auto;

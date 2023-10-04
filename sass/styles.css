@@ -1,15 +1,15 @@
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800";
 @font-face {
   font-family: "Rubik";
-  src: url("../assets/fonts/Rubik-Regular.ttf"); }
+  src: url("../assets/fonts/Rubik-Light.ttf"); }
 
 @font-face {
   font-family: "Cormorant Garamond";
-  src: url("../assets/fonts/CormorantGaramond-Regular.ttf"); }
+  src: url("../assets/fonts/CormorantGaramond-Light.ttf"); }
 
 @font-face {
   font-family: "Outfit";
-  src: url("../assets/fonts/Outfit-Regular.ttf"); }
+  src: url("../assets/fonts/Outfit-Light.ttf"); }
 
 @-webkit-keyframes ytp-spinner-linspin {
   to {
@@ -1016,7 +1016,7 @@ p {
 .cards {
   position: relative;
   top: -160px;
-  margin: auto; }
+  margin: aut; }
 
 .rowCards {
   display: flex;
@@ -1083,6 +1083,42 @@ p {
     border: none;
     background: none; }
 
+.card2 {
+  width: 275px;
+  height: 246px;
+  margin: auto;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #D6CCBF;
+  box-shadow: 2px 2px 16px 0px rgba(0, 0, 0, 0.25); }
+  .card2 h4 {
+    padding-top: 30px;
+    color: #73020C;
+    font-family: Cormorant Garamond;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 114.6%; }
+  .card2 p {
+    color: #727272;
+    font-family: Outfit;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 18.2px */ }
+  .card2 button {
+    color: #73020C;
+    font-family: Outfit;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 18.2px */
+    width: 43px;
+    border: none;
+    background: none; }
+
 .modal.show .modal-dialog {
   margin: auto;
   position: absolute; }
@@ -1131,28 +1167,29 @@ p {
     margin: auto;
     width: 480px;
     height: 84px;
-    flex-shrink: 0;
     color: #FFF;
     text-align: center;
     font-family: Cormorant Garamond;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
-    line-height: 114.6%; }
+    line-height: 114.6%;
+    /* 45.84px */ }
   .section-title .text {
     margin: auto;
     width: 1160px;
     color: #FFF;
     text-align: center;
-    font-family: Outfit;
+    font-family: Rubik;
     font-size: 24px;
     font-style: normal;
-    font-weight: 100;
-    line-height: 114.6%; }
+    font-weight: 300;
+    line-height: 114.6%;
+    /* 27.504px */ }
     .section-title .text p {
       margin: auto;
       color: #D1B06B;
-      font-family: Outfit;
+      font-family: Rubik;
       font-size: 24px;
       font-style: normal;
       font-weight: 300;
@@ -1222,6 +1259,17 @@ p {
   width: 730.435px;
   height: 705px;
   flex-shrink: 0; }
+  .register-photo .image-holder p {
+    margin: auto;
+    color: #FFF;
+    font-family: Cormorant Garamond;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    position: relative;
+    line-height: 114.6%;
+    width: 534.658px;
+    top: 75px; }
 
 .register-photo .form-container {
   display: table;
@@ -1330,6 +1378,7 @@ p {
     border-bottom: 2px solid #721011;
     right: 50%; }
   .toFind button {
+    margin-inline: 15%;
     border: none; }
 
 .testimonial-area {

@@ -305,14 +305,16 @@ $(function () {
 document.addEventListener('DOMContentLoaded', function () {
   const infoButtons = document.querySelectorAll('.info-button');
   const modal = document.querySelector('.modal');
+  const firstCard = document.querySelector('.card');
+  const SecondCard = document.querySelector('.card2');
+  
 
   infoButtons.forEach((button) => {
     button.addEventListener('click', function () {
-      const card = this.closest('.card');
-      if (card) {
-        const cardRect = card.getBoundingClientRect();
-        modal.style.top = `${cardRect.top}px`;
-        modal.style.left = `${cardRect.left}px`;
+      const firstCardRect = firstCard.getBoundingClientRect();
+      if (firstCard) {
+        modal.style.top = `${firstCardRect.top}px`;
+        modal.style.left = `${firstCardRect.left}px`;
         modal.style.display = 'block';
       }
     });

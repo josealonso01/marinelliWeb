@@ -1869,7 +1869,7 @@ p {
     .text {
         img {
             position     : relative;
-            margin-inline: 50%;
+            margin-inline: 25%;
         }
 
         h2 {
@@ -1881,7 +1881,7 @@ p {
             line-height: 114.6%;
             position   : relative;
             padding-top: 25px;
-            left       : 33%;
+            left       : 10%;
         }
 
         p {
@@ -1896,7 +1896,7 @@ p {
             margin-top   : 25px;
             flex-shrink  : 0;
             width        : 490px;
-            margin-inline: 10%;
+            right        : 10%;
             border-bottom: 2px solid #721011;
         }
     }
@@ -1932,7 +1932,7 @@ p {
         }
 
         .phone {
-            display   : inline-flex;
+            display      : inline-flex;
             margin-bottom: 2px;
 
             .svgImg {

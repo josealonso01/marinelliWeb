@@ -1352,7 +1352,7 @@ p {
     align-items: center; }
   .call-action-area .text img {
     position: relative;
-    margin-inline: 50%; }
+    margin-inline: 25%; }
   .call-action-area .text h2 {
     color: #800000;
     font-family: Cormorant Garamond;
@@ -1362,7 +1362,7 @@ p {
     line-height: 114.6%;
     position: relative;
     padding-top: 25px;
-    left: 33%; }
+    left: 10%; }
   .call-action-area .text p {
     color: #D1B06B;
     font-family: Rubik;
@@ -1375,7 +1375,7 @@ p {
     margin-top: 25px;
     flex-shrink: 0;
     width: 490px;
-    margin-inline: 10%;
+    right: 10%;
     border-bottom: 2px solid #721011; }
   .call-action-area .image button {
     margin-inline: 15%;

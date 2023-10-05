@@ -1384,31 +1384,70 @@ p {
 .testimonial-area {
   margin: auto;
   padding-top: 60px;
-  padding-bottom: 70px;
-  width: 1115px;
-  height: 520px;
-  background: #73020C;
   margin-top: 150px;
   margin-bottom: 150px; }
-  .testimonial-area .title {
-    color: #FFF;
-    text-align: center;
-    font-family: Cormorant Garamond;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 114.6%;
-    /* 45.84px */ }
+  .testimonial-area .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; }
+  .testimonial-area .image img {
+    width: 421px;
+    height: 421px;
+    flex-shrink: 0; }
+  .testimonial-area .image .phone {
+    display: inline-flex;
+    margin-bottom: 2px; }
+    .testimonial-area .image .phone .svgImg {
+      width: 42px;
+      height: 42px;
+      flex-shrink: 0;
+      background: #73020C;
+      display: inline-block;
+      padding: 1px; }
+      .testimonial-area .image .phone .svgImg svg {
+        width: 27px;
+        height: 27px;
+        margin: 7px; }
+    .testimonial-area .image .phone .number {
+      width: 377px;
+      height: 42px;
+      flex-shrink: 0;
+      background: #73020C;
+      padding: 12px;
+      color: #FFF;
+      font-family: Rubik;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      display: inline-block;
+      position: relative;
+      left: 2px; }
   .testimonial-area .text {
-    width: 1020px;
-    height: 275px;
-    flex-shrink: 0;
-    color: #FFF;
-    font-family: Cormorant Garamond;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 114.6%; }
+    /* Add additional styling for text, e.g., font-size, color, etc. */ }
+    .testimonial-area .text h2 {
+      color: #73020C;
+      text-align: center;
+      font-family: Cormorant Garamond;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 114.6%;
+      padding: 45px;
+      /* 45.84px */ }
+    .testimonial-area .text p {
+      color: #73020C;
+      text-align: center;
+      font-family: Cormorant Garamond;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 114.6%;
+      width: 565px;
+      height: 285px;
+      flex-shrink: 0;
+      /* 22.92px */ }
 
 .client-logo-area {
   padding-top: 80px;

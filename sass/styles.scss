@@ -2084,9 +2084,18 @@ p {
         justify-content: center;
     }
 
+    #sib-form {
+        text-align     : left;
+        display        : flex;
+        flex-wrap      : nowrap;
+        align-content  : center;
+        justify-content: flex-end;
+        align-items    : flex-end;
+        flex-direction : row;
+    }
+
     .call-action-content {
-        margin-inline: -65px;
-        width        : 510px;
+        width: 510px;
     }
 
     .action-title {
@@ -2115,17 +2124,6 @@ p {
     }
 
     .call-action-form {
-        form {
-            display        : flex;
-            align-content  : center;
-            justify-content: center;
-            align-items    : flex-start;
-            flex-wrap      : nowrap;
-            flex-direction : row;
-        }
-
-        margin-inline: 90px;
-
         input {
             width      : 435px;
             height     : 49px;
@@ -2139,6 +2137,19 @@ p {
             line-height: 140%;
             /* 18.2px */
         }
+
+        form {
+            display        : flex;
+            align-content  : center;
+            justify-content: center;
+            align-items    : flex-start;
+            flex-wrap      : nowrap;
+            flex-direction : row;
+        }
+
+
+        margin-inline: 90px;
+
 
         button {
             background    : #D1B06B;

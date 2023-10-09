@@ -302,28 +302,46 @@ $(function () {
 
   //=====
 });
+
 document.addEventListener('DOMContentLoaded', function () {
   const infoButtons = document.querySelectorAll('.info-button');
-  const modal = document.querySelector('.modal');
-  const firstCard = document.querySelector('.card');
-  const SecondCard = document.querySelector('.card2');
-  
+  const modals = document.querySelectorAll('.modal');
+  const cards = document.querySelectorAll('.card');
 
-  infoButtons.forEach((button) => {
+  if (
+    infoButtons.length !== modals.length ||
+    infoButtons.length !== cards.length
+  ) {
+    console.error('Mismatched number of buttons, modals, or cards.');
+    return; // Exit the function to avoid further errors
+  }
+
+  infoButtons.forEach((button, index) => {
     button.addEventListener('click', function () {
-      const firstCardRect = firstCard.getBoundingClientRect();
-      if (firstCard) {
-        modal.style.top = `${firstCardRect.top}px`;
-        modal.style.left = `${firstCardRect.left}px`;
-        modal.style.display = 'block';
+      const modal = modals[index];
+      const card = cards[index];
+
+      if (!modal || !card) {
+        console.error(
+          'Modal or card not found for button at index ' + index
+        );
+        return; // Skip this iteration if modal or card is not found
       }
+
+      const cardRect = card.getBoundingClientRect();
+      modal.style.top = `${cardRect.top}px`;
+      modal.style.left = `${cardRect.left}px`;
+      modal.style.display = 'block';
     });
   });
 
-  // Close modal when clicking outside of it
-  modal.addEventListener('click', function (event) {
-    if (event.target === this) {
-      modal.style.display = 'none';
-    }
+  // Close modals when clicking outside of them
+  modals.forEach((modal) => {
+    modal.addEventListener('click', function (event) {
+      if (event.target === this) {
+        modal.style.display = 'none';
+      }
+    });
   });
 });
+

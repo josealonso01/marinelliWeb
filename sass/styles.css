@@ -1510,11 +1510,13 @@ p {
     display: flex;
     flex-wrap: nowrap;
     align-content: center;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: flex-end;
     flex-direction: row; }
   .contact-area .call-action-content {
-    width: 510px; }
+    width: 510px;
+    border-right: 1px solid black;
+    margin-inline: 10%; }
   .contact-area .action-title {
     color: #73020C;
     font-family: Cormorant Garamond;
@@ -1534,11 +1536,19 @@ p {
   .contact-area .line {
     border-left: 1px solid #221712;
     height: 105px; }
+  .contact-area .sib-form {
+    padding: 0%;
+    margin-inline: -3%; }
+  .contact-area .sib-form-block {
+    word-wrap: break-word;
+    outline: none;
+    padding: 0; }
   .contact-area .call-action-form {
+    display: flex;
     margin-inline: 90px; }
     .contact-area .call-action-form input {
       width: 435px;
-      height: 49px;
+      height: 49px !important;
       flex-shrink: 0;
       background: #D7D7D7;
       color: #000;

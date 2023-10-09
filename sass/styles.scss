@@ -2085,17 +2085,18 @@ p {
     }
 
     #sib-form {
-        text-align     : left;
+        text-align      : left;
         display        : flex;
         flex-wrap      : nowrap;
         align-content  : center;
-        justify-content: flex-end;
+        justify-content: space-between;
         align-items    : flex-end;
         flex-direction : row;
     }
 
     .call-action-content {
-        width: 510px;
+        width       : 510px;
+        border-right: 1px solid black;    margin-inline: 10%;
     }
 
     .action-title {
@@ -2123,11 +2124,24 @@ p {
         height     : 105px;
     }
 
+    .sib-form {
+        padding      : 0%;
+        margin-inline: -3%;
+    }
+
+    .sib-form-block {
+        word-wrap: break-word;
+        outline  : none;
+        padding  : 0;
+    }
+
     .call-action-form {
+        display: flex;
+
         input {
             width      : 435px;
-            height     : 49px;
-            flex-shrink: 0;
+            height     : 49px !important;
+            flex-shrink: 0; 
             background : #D7D7D7;
             color      : #000;
             font-family: Rubik;

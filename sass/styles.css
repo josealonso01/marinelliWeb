@@ -1374,7 +1374,7 @@ p {
     position: relative;
     margin-top: 25px;
     flex-shrink: 0;
-    width: 490px;
+    width: 475px;
     right: 10%;
     border-bottom: 2px solid #721011; }
   .call-action-area .image button {
@@ -1383,9 +1383,13 @@ p {
 
 .testimonial-area {
   margin: auto;
-  padding-top: 60px;
+  padding-top: 110px;
   margin-top: 150px;
-  margin-bottom: 150px; }
+  margin-bottom: 150px;
+  background-image: url("../assets/images/Rectangle 484 (1).png"), url("../assets/images/Rectangle 483 (1).png");
+  background-repeat: no-repeat, no-repeat;
+  padding-bottom: 80px;
+  background-position: 101% 90%, 0px 0%; }
   .testimonial-area .container {
     display: flex;
     justify-content: space-between;

@@ -1895,7 +1895,7 @@ p {
             position     : relative;
             margin-top   : 25px;
             flex-shrink  : 0;
-            width        : 490px;
+            width        : 475px;
             right        : 10%;
             border-bottom: 2px solid #721011;
         }
@@ -1912,9 +1912,16 @@ p {
 
 .testimonial-area {
     margin       : auto;
-    padding-top  : 60px;
+    padding-top  : 110px;
     margin-top   : 150px;
     margin-bottom: 150px;
+    background-image: url('../assets/images/Rectangle\ 484\ \(1\).png'),
+        url('../assets/images/Rectangle\ 483\ \(1\).png');
+    background-repeat: no-repeat,
+        no-repeat;
+    padding-bottom: 80px;
+    background-position: 101% 90%,
+        0px 0%;
 
     .container {
         display        : flex;
@@ -2085,7 +2092,7 @@ p {
     }
 
     #sib-form {
-        text-align      : left;
+        text-align     : left;
         display        : flex;
         flex-wrap      : nowrap;
         align-content  : center;
@@ -2095,8 +2102,9 @@ p {
     }
 
     .call-action-content {
-        width       : 510px;
-        border-right: 1px solid black;    margin-inline: 10%;
+        width        : 510px;
+        border-right : 1px solid black;
+        margin-inline: 10%;
     }
 
     .action-title {
@@ -2141,7 +2149,7 @@ p {
         input {
             width      : 435px;
             height     : 49px !important;
-            flex-shrink: 0; 
+            flex-shrink: 0;
             background : #D7D7D7;
             color      : #000;
             font-family: Rubik;

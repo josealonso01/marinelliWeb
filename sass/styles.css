@@ -1032,9 +1032,6 @@ p {
   justify-content: center;
   align-items: center; }
 
-.rowCardsMOBILE {
-  display: none; }
-
 .carousel-control-next,
 .carousel-control-prev {
   position: absolute;
@@ -1090,6 +1087,9 @@ p {
     width: 43px;
     border: none;
     background: none; }
+
+.about-areaMOBILE {
+  display: none; }
 
 .card2 {
   width: 275px;
@@ -1697,8 +1697,8 @@ p {
       margin-inline: 0px; }
     .navbar-area .navbar .navbar-collapse {
       position: absolute;
-      top: 48px;
-      left: 65%;
+      top: 50px;
+      left: 72%;
       width: 133px;
       height: 194px;
       background: rgba(115, 2, 12, 0.9);
@@ -1711,7 +1711,13 @@ p {
         display: block;
         text-align: end;
         border: 0;
-        margin: 0; }
+        margin: 0;
+        color: #ECE6D3;
+        font-family: Rubik;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal; }
         .navbar-area .navbar .navbar-nav .nav-item a::before {
           display: none; }
       .navbar-area .navbar .navbar-nav .nav-item .sub-menu {
@@ -1785,49 +1791,38 @@ p {
       /* 166.667% */
       letter-spacing: 4.453px;
       text-transform: uppercase; }
-  .rowCards {
-    display: flex;
-    -ms-flex-wrap: wrap;
-    margin-inline: auto;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    align-content: center;
-    width: auto;
-    position: relative;
-    top: 45px; }
-  .rowCardsMOBILE {
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    top: 45px;
-    padding-bottom: 80px; }
-  .cards .card {
-    width: 279px;
-    height: 44px;
-    flex-shrink: 0; }
-    .cards .card .card-body {
+  .about-area {
+    display: none; }
+  .about-areaMOBILE {
+    display: block;
+    background-color: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px; }
+    .about-areaMOBILE .card {
       width: 279px;
       height: 44px;
-      flex-shrink: 0; }
-    .cards .card .card-title {
-      padding: 0;
-      color: #73020C;
-      text-align: center;
-      font-family: Cormorant Garamond;
-      font-size: 12px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: 114.6%;
-      /* 13.752px */ }
-    .cards .card .card-text {
-      display: none; }
+      margin-top: 13px;
+      position: relative;
+      flex-shrink: 0;
+      top: -135px; }
+      .about-areaMOBILE .card .card-body {
+        color: #73020C;
+        text-align: center;
+        font-family: Cormorant Garamond;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 114.6%; }
+      .about-areaMOBILE .card .card-title {
+        color: #73020C;
+        text-align: center;
+        font-family: Cormorant Garamond;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 114.6%;
+        top: -10px;
+        position: relative; }
   .aboutText {
     width: 100%; }
   .carousel-control-next,

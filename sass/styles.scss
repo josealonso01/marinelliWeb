@@ -2546,7 +2546,7 @@ p {
             }
 
             .card-title {
-                padding: 0;
+                padding    : 0;
                 color      : #73020C;
                 text-align : center;
                 font-family: Cormorant Garamond;
@@ -2562,6 +2562,10 @@ p {
             }
         }
 
+    }
+
+    .aboutText {
+        width: 100%;
     }
 
     .carousel-control-next,

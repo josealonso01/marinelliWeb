@@ -2534,6 +2534,38 @@ p {
     }
 
     .cards {
+        .card {
+            width      : 279px;
+            height     : 44px;
+            flex-shrink: 0;
+
+            .card-body {
+                width      : 279px;
+                height     : 44px;
+                flex-shrink: 0;
+            }
+
+            .card-title {
+                padding: 0;
+                color      : #73020C;
+                text-align : center;
+                font-family: Cormorant Garamond;
+                font-size  : 12px;
+                font-style : normal;
+                font-weight: 700;
+                line-height: 114.6%;
+                /* 13.752px */
+            }
+
+            .card-text {
+                display: none;
+            }
+        }
+
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev {
         display: none;
     }
 

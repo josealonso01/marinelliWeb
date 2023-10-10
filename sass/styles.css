@@ -1782,7 +1782,28 @@ p {
       /* 166.667% */
       letter-spacing: 4.453px;
       text-transform: uppercase; }
-  .cards {
+  .cards .card {
+    width: 279px;
+    height: 44px;
+    flex-shrink: 0; }
+    .cards .card .card-body {
+      width: 279px;
+      height: 44px;
+      flex-shrink: 0; }
+    .cards .card .card-title {
+      padding: 0;
+      color: #73020C;
+      text-align: center;
+      font-family: Cormorant Garamond;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 114.6%;
+      /* 13.752px */ }
+    .cards .card .card-text {
+      display: none; }
+  .carousel-control-next,
+  .carousel-control-prev {
     display: none; }
   .header-hero {
     height: 650px; }

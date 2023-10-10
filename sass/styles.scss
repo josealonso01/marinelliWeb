@@ -1471,6 +1471,10 @@ p {
 
 }
 
+.rowCardsMOBILE {
+    display: none;
+}
+
 .carousel-control-next,
 .carousel-control-prev {
     position       : absolute;
@@ -2531,6 +2535,33 @@ p {
 
             }
         }
+    }
+
+    .rowCards {
+        display        : flex;
+        -ms-flex-wrap  : wrap;
+        margin-inline  : auto;
+        flex-wrap      : nowrap;
+        justify-content: center;
+        align-items    : center;
+        flex-direction : column;
+        align-content  : center;
+        width          : auto;
+        position       : relative;
+        top            : 45px;
+    }
+
+    .rowCardsMOBILE {
+        width          : auto;
+        display        : flex;
+        flex-direction : column;
+        flex-wrap      : nowrap;
+        align-content  : center;
+        justify-content: center;
+        align-items    : center;
+        position       : relative;
+        top            : 45px;
+        padding-bottom : 80px;
     }
 
     .cards {

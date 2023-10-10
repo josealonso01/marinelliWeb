@@ -1823,6 +1823,50 @@ p {
         line-height: 114.6%;
         top: -10px;
         position: relative; }
+  div#exampleModalMobile {
+    display: block;
+    margin: auto;
+    left: auto;
+    top: 17%; }
+  .modal-content-mobile {
+    width: 279px;
+    height: 278px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #D6CCBF; }
+    .modal-content-mobile .modal-header {
+      display: flex;
+      align-items: center;
+      border-top-left-radius: 0.3rem;
+      border-top-right-radius: 0.3rem;
+      justify-content: center;
+      flex-wrap: nowrap;
+      border: none;
+      padding: 15px; }
+      .modal-content-mobile .modal-header .modal-title {
+        color: #73020C;
+        text-align: center;
+        font-family: Cormorant Garamond;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 114.6%;
+        /* 13.752px */
+        width: 214.323px;
+        height: 19.595px;
+        flex-shrink: 0; }
+    .modal-content-mobile .modal-body {
+      color: #727272;
+      text-align: center;
+      font-family: Outfit;
+      font-size: 8px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 140%;
+      width: 231px;
+      height: 212px;
+      padding: 0;
+      margin: auto; }
   .aboutText {
     width: 100%; }
   .carousel-control-next,

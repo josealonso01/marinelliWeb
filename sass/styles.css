@@ -1837,7 +1837,8 @@ p {
       /* 18.336px */ }
   div#exampleModalMobile {
     margin: auto;
-    left: auto; }
+    left: 15%;
+    top: 17%; }
   .modal-content-mobile {
     width: 279px;
     height: 278px;
@@ -1922,18 +1923,96 @@ p {
   .about-area-3 .about-content .text {
     font-size: 16px;
     line-height: 24px; }
-  .portfolio-menu ul li {
-    font-size: 14px;
-    padding: 0 22px;
-    line-height: 42px; }
-  .single-portfolio .portfolio-text .portfolio-title a {
-    font-size: 20px; }
-  .pricing-style-one .pricing-list ul li {
-    font-size: 14px;
-    margin-top: 12px; }
-  .pricing-style-two .pricing-header .price {
-    font-size: 50px;
-    margin-top: 16px; }
-  .pricing-style-two .pricing-list ul li {
-    font-size: 14px;
-    margin-top: 12px; } }
+  .portfolio-area {
+    background: rgba(114, 16, 17, 0.95);
+    width: 100%;
+    height: 302px;
+    flex-shrink: 0;
+    flex-shrink: 0;
+    padding: 0; }
+    .portfolio-area .section-title {
+      padding: 0; }
+      .portfolio-area .section-title .title {
+        color: #FFF;
+        text-align: center;
+        font-family: "Cormorant Garamond";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 114.6%;
+        margin-top: 23px; }
+      .portfolio-area .section-title .text {
+        width: 280px;
+        height: 197.635px;
+        flex-shrink: 0;
+        color: #FFF;
+        text-align: center;
+        font-family: Rubik;
+        font-size: 10px;
+        margin-top: -40px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 114.6%; }
+        .portfolio-area .section-title .text span {
+          color: #D1B06B;
+          font-family: Rubik;
+          font-size: 10px;
+          font-style: normal;
+          font-weight: 300;
+          line-height: 114.6%; }
+  .pricing-area {
+    height: 406px; }
+  .register-photo .form-container {
+    display: inline-block; }
+  .register-photo .image-holder {
+    background-image: url("../assets/images/pexels-andrea-piacquadio-3771097 1 (1).png");
+    background-position: 70% 0px; }
+    .register-photo .image-holder p {
+      display: none; }
+  .register-photo form {
+    background: none;
+    display: block;
+    position: relative;
+    bottom: 712px;
+    margin: auto; }
+    .register-photo form h2 {
+      color: #1F2732;
+      text-align: center;
+      font-family: Cormorant Garamond;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 114.6%;
+      margin: auto;
+      width: 60px;
+      height: 27px; }
+    .register-photo form .form-control {
+      background: none;
+      width: 281px;
+      height: 0.629px;
+      position: relative;
+      right: 50%;
+      color: #000;
+      font-family: Rubik;
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 140%;
+      /* 14px */ }
+    .register-photo form .inputEnviar {
+      background: #D1B06B;
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+      width: 72.414px;
+      height: 28.386px;
+      position: relative;
+      padding: 5px;
+      color: #FFF;
+      font-family: Rubik;
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      text-transform: capitalize;
+      top: 15px; }
+  .call-action-area {
+    width: 100%; } }

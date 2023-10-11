@@ -2015,4 +2015,49 @@ p {
       text-transform: capitalize;
       top: 15px; }
   .call-action-area {
-    width: 100%; } }
+    background: #FFF; }
+    .call-action-area .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      flex-wrap: wrap;
+      flex-direction: column; }
+    .call-action-area .text img {
+      width: 27.394px;
+      margin: auto;
+      margin-inline: 0;
+      height: 25.866px;
+      position: relative;
+      left: 50%; }
+    .call-action-area .text h2 {
+      width: 97px;
+      height: 19px;
+      color: #800000;
+      font-family: Cormorant Garamond;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 114.6%;
+      margin: auto;
+      left: 5%; }
+    .call-action-area .text p {
+      width: 252px;
+      height: 13px;
+      color: #D1B06B;
+      font-family: Rubik;
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 140%;
+      border: none;
+      margin: auto;
+      margin-top: 40px;
+      left: 5%; }
+    .call-action-area .image button {
+      margin-top: 50px; }
+      .call-action-area .image button iframe {
+        width: 365px;
+        height: 116px;
+        position: relative;
+        right: 15%; } }

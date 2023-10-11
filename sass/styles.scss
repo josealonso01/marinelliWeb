@@ -2959,4 +2959,76 @@ p {
         }
     }
 
+    .contact-area #sib-form {
+        text-align     : center;
+        display        : flex;
+        flex-wrap      : nowrap;
+        align-content  : center;
+        justify-content: space-between;
+        align-items    : flex-end;
+        flex-direction : column;
+    }
+
+    .contact-area {
+        .action-title {
+            color      : #000;
+            font-family: Cormorant Garamond;
+            font-size  : 16px;
+            font-style : normal;
+            font-weight: 700;
+            line-height: 114.6%;
+            /* 18.336px */
+        }
+
+        .text {
+            color         : #000;
+            font-family   : Rubik;
+            font-size     : 10px;
+            font-style    : normal;
+            font-weight   : 400;
+            line-height   : normal;
+            letter-spacing: 4.453px;
+            text-transform: uppercase;
+            padding       : 9px;
+        }
+
+        input#EMAIL {
+            width      : 206.751px;
+            height     : 23.735px;
+            flex-shrink: 0;
+            background : #D7D7D7;
+            left       : 10px;
+
+            position: relative;
+            left    : 15%;
+
+            ::placeholder {
+                color      : #000;
+                font-family: Rubik;
+                font-size  : 10px;
+                font-style : normal;
+                font-weight: 300;
+                line-height: 140%;
+            }
+        }
+
+        button {
+            background    : #D1B06B;
+            width         : 125px;
+            height        : 49px;
+            padding       : 10.647px 26.973px;
+            color         : #FFF;
+            font-family   : Rubik;
+            font-size     : 10px;
+            font-style    : normal;
+            font-weight   : 500;
+            line-height   : normal;
+            text-transform: capitalize;
+            position      : relative;
+            flex-shrink   : 0;
+            left          : 16%;
+        }
+    }
+
+
 }

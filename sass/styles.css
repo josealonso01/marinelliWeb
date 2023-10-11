@@ -1963,7 +1963,8 @@ p {
   .pricing-area {
     height: 406px; }
   .register-photo .form-container {
-    display: inline-block; }
+    display: inline-block;
+    box-shadow: none; }
   .register-photo .image-holder {
     background-image: url("../assets/images/pexels-andrea-piacquadio-3771097 1 (1).png");
     background-position: 70% 0px; }
@@ -2064,12 +2065,12 @@ p {
         position: relative;
         background: #FFF; }
   .testimonial-area {
+    padding: 0;
     margin: 0; }
     .testimonial-area .container {
       display: flex;
       justify-content: center;
       align-items: center;
-      padding: 10px;
       align-content: center;
       flex-direction: column;
       flex-wrap: nowrap; }
@@ -2077,6 +2078,29 @@ p {
       width: 92px;
       height: 92px;
       flex-shrink: 0; }
+    .testimonial-area .image .phone {
+      display: none; }
+    .testimonial-area .text h2 {
+      color: #73020C;
+      text-align: center;
+      font-family: Cormorant Garamond;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 114.6%;
+      position: relative;
+      height: 40px;
+      margin: auto; }
+    .testimonial-area .text p {
+      color: #73020C;
+      text-align: center;
+      font-family: Cormorant Garamond;
+      font-size: 11px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 114.6%;
+      width: 280px;
+      height: 159px; }
   .contact-area #sib-form {
     text-align: center;
     display: flex;

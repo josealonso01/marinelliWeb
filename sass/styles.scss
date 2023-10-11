@@ -2871,6 +2871,7 @@ p {
 
     .call-action-area {
         background: #FFF;
+
         .container {
             display        : flex;
             justify-content: center;
@@ -2921,14 +2922,15 @@ p {
 
         .image {
             button {
-
-                margin-top: 50px;
+                margin-inline: 0;
+                margin-top   : 50px;
+                background-color: #FFF;
 
                 iframe {
                     width   : 365px;
                     height  : 116px;
                     position: relative;
-                    right   : 15%;
+                    background: #FFF;
                 }
             }
 

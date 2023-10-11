@@ -2802,7 +2802,7 @@ p {
 
     .register-photo {
         .form-container {
-            display: inline-block;
+            display   : inline-block;
             box-shadow: none;
         }
 
@@ -2939,8 +2939,13 @@ p {
     }
 
     .testimonial-area {
-        padding: 0;
-        margin : 0;
+        width: 100%;
+        background-image: url('../assets/images/Rectangle.png'), url('../assets/images/Rectangle\ \(1\).png');
+        background-position: 369px 323px,
+            -15px 10px;
+        padding       : 0;
+        margin        : 0;
+        padding-bottom: 35px;
 
         .container {
             display        : flex;
@@ -3002,6 +3007,7 @@ p {
     }
 
     .contact-area {
+        padding-top: 0;
         .action-title {
             color      : #000;
             font-family: Cormorant Garamond;
@@ -3062,5 +3068,9 @@ p {
         }
     }
 
+    .footer-area {
+        width : 100%;
+        height: 147px;
+    }
 
 }

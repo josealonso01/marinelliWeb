@@ -2062,4 +2062,18 @@ p {
         width: 365px;
         height: 116px;
         position: relative;
-        background: #FFF; } }
+        background: #FFF; }
+  .testimonial-area {
+    margin: 0; }
+    .testimonial-area .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      align-content: center;
+      flex-direction: column;
+      flex-wrap: nowrap; }
+    .testimonial-area .image img {
+      width: 92px;
+      height: 92px;
+      flex-shrink: 0; } }

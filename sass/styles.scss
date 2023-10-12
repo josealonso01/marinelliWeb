@@ -326,9 +326,14 @@ sans-serif;
     }
 }
 
+html,
 body {
-    max-width : 100%;
     overflow-x: hidden;
+}
+
+
+body {
+    width: 100%;
 }
 
 * {
@@ -2939,7 +2944,7 @@ p {
     }
 
     .testimonial-area {
-        width: 100%;
+        width           : 100%;
         background-image: url('../assets/images/Rectangle.png'), url('../assets/images/Rectangle\ \(1\).png');
         background-position: 369px 323px,
             -15px 10px;
@@ -3008,6 +3013,7 @@ p {
 
     .contact-area {
         padding-top: 0;
+
         .action-title {
             color      : #000;
             font-family: Cormorant Garamond;

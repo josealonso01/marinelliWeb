@@ -615,6 +615,9 @@ p {
     text-transform     : uppercase;
 }
 
+.nav-item .mobile {
+    display: none;
+}
 
 .navbar-area {
     background        : #73020C;
@@ -694,11 +697,13 @@ p {
             }
         }
 
+
         .navbar-nav {
             margin-right: 24px;
 
             .nav-item {
                 position: relative;
+
 
                 a {
                     padding    : 11px 16px;
@@ -1648,7 +1653,8 @@ div#modal6 {
     border-radius: 20px;
     background   : #D6CCBF;
     box-shadow   : 2px 2px 16px 0px rgba(0, 0, 0, 0.25);
-    .modal-header{
+
+    .modal-header {
         border: none;
     }
 
@@ -2222,7 +2228,7 @@ div#modal6 {
 
         input {
             width      : 435px;
-            height     : 49px !important;
+            height     : 49px;
             flex-shrink: 0;
             background : #D7D7D7;
             color      : #000;
@@ -2616,15 +2622,20 @@ div#modal6 {
         display         : block;
         background-color: #fff;
         padding-top     : 100px;
-        padding-bottom  : 45px;
 
         .card {
-            width      : 279px;
-            height     : 44px;
-            margin-top : 13px;
-            position   : relative;
-            flex-shrink: 0;
-            top        : -135px;
+            width        : 279px;
+            height       : 44px;
+            margin-top   : 13px;
+            position     : relative;
+            flex-shrink  : 0;
+            top          : -135px;
+            margin-bottom: 25px;
+
+            button {
+                right: 0%;
+                top  : 0%;
+            }
 
             .card-body {
                 color      : #73020C;
@@ -2650,28 +2661,40 @@ div#modal6 {
             }
         }
 
-        .aboutText {
-            width      : 279px;
-            height     : 41px;
-            flex-shrink: 0;
-            color      : #1F2732;
-            text-align : center;
-            font-family: Cormorant Garamond;
-            font-size  : 16px;
-            font-style : normal;
-            font-weight: 700;
-            line-height: 114.6%;
-            /* 18.336px */
-        }
     }
 
     div#exampleModalMobile {
         margin: auto;
-        left  : 15%;
-        top   : 17%;
+        left  : 19%;
+        top   : 10%;
     }
 
-    .modal-content-mobile {
+
+    div#exampleModalMobile2 {
+        margin: auto;
+        left  : 20%;
+        top   : 31%;
+    }
+
+    div#exampleModalMobile3 {
+        margin: auto;
+        left  : 20%;
+        top   : 31%;
+    }
+
+    div#exampleModalMobile4 {
+        margin: auto;
+        left  : 20%;
+        top   : 31%;
+    }
+
+    div#exampleModalMobile5 {
+        margin: auto;
+        left  : 20%;
+        top   : 31%;
+    }
+
+    .modal-content-mobile-first {
         width        : 279px;
         height       : 278px;
         flex-shrink  : 0;
@@ -2719,8 +2742,56 @@ div#modal6 {
         }
     }
 
+    .modal-content-mobile {
+        width        : 279px;
+        height       : 111px;
+        flex-shrink  : 0;
+        border-radius: 12px;
+        background   : #D6CCBF;
+
+        .modal-header {
+            display                : flex;
+            align-items            : center;
+            border-top-left-radius : 0.3rem;
+            border-top-right-radius: 0.3rem;
+            justify-content        : center;
+            flex-wrap              : nowrap;
+            border                 : none;
+            padding                : 15px;
+
+            .modal-title {
+                color      : #73020C;
+                text-align : center;
+                font-family: Cormorant Garamond;
+                font-size  : 12px;
+                font-style : normal;
+                font-weight: 700;
+                line-height: 114.6%;
+                /* 13.752px */
+                width      : 214.323px;
+                height     : 19.595px;
+                flex-shrink: 0;
+            }
+
+        }
+
+        .modal-body {
+            color      : #727272;
+            text-align : center;
+            font-family: Outfit;
+            font-size  : 8px;
+            font-style : normal;
+            font-weight: 400;
+            line-height: 140%;
+            width      : 231px;
+            height     : 212px;
+            padding    : 0;
+            margin     : auto;
+        }
+    }
+
     .aboutText {
-        width: 100%;
+        display: none;
     }
 
     .carousel-control-next,
@@ -2759,58 +2830,6 @@ div#modal6 {
         }
     }
 
-    .single-about {
-        .about-icon {
-            img {
-                width: 100px;
-            }
-        }
-
-        .about-content {
-            padding-left: 0;
-            padding-top : 30px;
-        }
-    }
-
-    .about-area-2 {
-        .about-image {
-            position     : relative;
-            width        : 100%;
-            padding-left : 15px;
-            padding-right: 16px;
-            margin       : 0 auto;
-
-            .image {
-                margin     : 0 auto;
-                padding-top: 50px;
-            }
-        }
-    }
-
-    .about-content-2 {
-        .about-content {
-            padding-left: 0;
-            padding-top : 15px;
-        }
-    }
-
-    .about-area-3 {
-        .about-content {
-            .sub-title {
-                font-size: 20px;
-            }
-
-            .about-title {
-                font-size  : 32px;
-                line-height: 35px;
-            }
-
-            .text {
-                font-size  : 16px;
-                line-height: 24px;
-            }
-        }
-    }
 
     .portfolio-area {
         background : rgba(114, 16, 17, 0.95);
@@ -3006,7 +3025,7 @@ div#modal6 {
     .testimonial-area {
         width           : 100%;
         background-image: url('../assets/images/Rectangle.png'), url('../assets/images/Rectangle\ \(1\).png');
-        background-position: 369px 323px,
+        background-position: 440px 323px,
             -15px 10px;
         padding       : 0;
         margin        : 0;
@@ -3061,6 +3080,7 @@ div#modal6 {
         }
     }
 
+
     .contact-area #sib-form {
         text-align     : center;
         display        : flex;
@@ -3098,7 +3118,7 @@ div#modal6 {
 
         input#EMAIL {
             width      : 206.751px;
-            height     : 23.735px;
+            height     : 40px;
             flex-shrink: 0;
             background : #D7D7D7;
             left       : 10px;
@@ -3119,7 +3139,7 @@ div#modal6 {
         button {
             background    : #D1B06B;
             width         : 125px;
-            height        : 49px;
+            height        : 24px;
             padding       : 10.647px 26.973px;
             color         : #FFF;
             font-family   : Rubik;
@@ -3128,9 +3148,30 @@ div#modal6 {
             font-weight   : 500;
             line-height   : normal;
             text-transform: capitalize;
+            display       : flex;
+            flex-shrink   : 0;
             position      : relative;
             flex-shrink   : 0;
             left          : 16%;
+        }
+
+        .call-action-form {
+            button {
+                width          : 68.754px;
+                height         : 24px;
+                padding        : 0px;
+                justify-content: center;
+                align-items    : center;
+                display        : flex;
+                flex-shrink    : 0;
+                color          : #FFF;
+                font-family    : Rubik;
+                font-size      : 10px;
+                font-style     : normal;
+                font-weight    : 500;
+                line-height    : normal;
+                text-transform : capitalize;
+            }
         }
     }
 

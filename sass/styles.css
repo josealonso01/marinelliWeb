@@ -464,6 +464,9 @@ p {
   position: relative;
   text-transform: uppercase; }
 
+.nav-item .mobile {
+  display: none; }
+
 .navbar-area {
   background: #73020C;
   padding: 10px 0;
@@ -1609,7 +1612,7 @@ div#modal6 {
     margin-inline: 90px; }
     .contact-area .call-action-form input {
       width: 435px;
-      height: 49px !important;
+      height: 49px;
       flex-shrink: 0;
       background: #D7D7D7;
       color: #000;
@@ -1846,15 +1849,18 @@ div#modal6 {
   .about-areaMOBILE {
     display: block;
     background-color: #fff;
-    padding-top: 100px;
-    padding-bottom: 45px; }
+    padding-top: 100px; }
     .about-areaMOBILE .card {
       width: 279px;
       height: 44px;
       margin-top: 13px;
       position: relative;
       flex-shrink: 0;
-      top: -135px; }
+      top: -135px;
+      margin-bottom: 25px; }
+      .about-areaMOBILE .card button {
+        right: 0%;
+        top: 0%; }
       .about-areaMOBILE .card .card-body {
         color: #73020C;
         text-align: center;
@@ -1873,25 +1879,68 @@ div#modal6 {
         line-height: 114.6%;
         top: -10px;
         position: relative; }
-    .about-areaMOBILE .aboutText {
-      width: 279px;
-      height: 41px;
-      flex-shrink: 0;
-      color: #1F2732;
-      text-align: center;
-      font-family: Cormorant Garamond;
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: 114.6%;
-      /* 18.336px */ }
   div#exampleModalMobile {
     margin: auto;
-    left: 15%;
-    top: 17%; }
-  .modal-content-mobile {
+    left: 19%;
+    top: 10%; }
+  div#exampleModalMobile2 {
+    margin: auto;
+    left: 20%;
+    top: 31%; }
+  div#exampleModalMobile3 {
+    margin: auto;
+    left: 20%;
+    top: 31%; }
+  div#exampleModalMobile4 {
+    margin: auto;
+    left: 20%;
+    top: 31%; }
+  div#exampleModalMobile5 {
+    margin: auto;
+    left: 20%;
+    top: 31%; }
+  .modal-content-mobile-first {
     width: 279px;
     height: 278px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #D6CCBF; }
+    .modal-content-mobile-first .modal-header {
+      display: flex;
+      align-items: center;
+      border-top-left-radius: 0.3rem;
+      border-top-right-radius: 0.3rem;
+      justify-content: center;
+      flex-wrap: nowrap;
+      border: none;
+      padding: 15px; }
+      .modal-content-mobile-first .modal-header .modal-title {
+        color: #73020C;
+        text-align: center;
+        font-family: Cormorant Garamond;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 114.6%;
+        /* 13.752px */
+        width: 214.323px;
+        height: 19.595px;
+        flex-shrink: 0; }
+    .modal-content-mobile-first .modal-body {
+      color: #727272;
+      text-align: center;
+      font-family: Outfit;
+      font-size: 8px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 140%;
+      width: 231px;
+      height: 212px;
+      padding: 0;
+      margin: auto; }
+  .modal-content-mobile {
+    width: 279px;
+    height: 111px;
     flex-shrink: 0;
     border-radius: 12px;
     background: #D6CCBF; }
@@ -1929,7 +1978,7 @@ div#modal6 {
       padding: 0;
       margin: auto; }
   .aboutText {
-    width: 100%; }
+    display: none; }
   .carousel-control-next,
   .carousel-control-prev {
     display: none; }
@@ -1948,31 +1997,6 @@ div#modal6 {
     line-height: 32px; }
   .about-area .section-title .text {
     font-size: 16px; }
-  .single-about .about-icon img {
-    width: 100px; }
-  .single-about .about-content {
-    padding-left: 0;
-    padding-top: 30px; }
-  .about-area-2 .about-image {
-    position: relative;
-    width: 100%;
-    padding-left: 15px;
-    padding-right: 16px;
-    margin: 0 auto; }
-    .about-area-2 .about-image .image {
-      margin: 0 auto;
-      padding-top: 50px; }
-  .about-content-2 .about-content {
-    padding-left: 0;
-    padding-top: 15px; }
-  .about-area-3 .about-content .sub-title {
-    font-size: 20px; }
-  .about-area-3 .about-content .about-title {
-    font-size: 32px;
-    line-height: 35px; }
-  .about-area-3 .about-content .text {
-    font-size: 16px;
-    line-height: 24px; }
   .portfolio-area {
     background: rgba(114, 16, 17, 0.95);
     width: 100%;
@@ -2117,7 +2141,7 @@ div#modal6 {
   .testimonial-area {
     width: 100%;
     background-image: url("../assets/images/Rectangle.png"), url("../assets/images/Rectangle (1).png");
-    background-position: 369px 323px, -15px 10px;
+    background-position: 440px 323px, -15px 10px;
     padding: 0;
     margin: 0;
     padding-bottom: 35px; }
@@ -2185,7 +2209,7 @@ div#modal6 {
       padding: 9px; }
     .contact-area input#EMAIL {
       width: 206.751px;
-      height: 23.735px;
+      height: 40px;
       flex-shrink: 0;
       background: #D7D7D7;
       left: 10px;
@@ -2201,7 +2225,7 @@ div#modal6 {
     .contact-area button {
       background: #D1B06B;
       width: 125px;
-      height: 49px;
+      height: 24px;
       padding: 10.647px 26.973px;
       color: #FFF;
       font-family: Rubik;
@@ -2210,9 +2234,26 @@ div#modal6 {
       font-weight: 500;
       line-height: normal;
       text-transform: capitalize;
+      display: flex;
+      flex-shrink: 0;
       position: relative;
       flex-shrink: 0;
       left: 16%; }
+    .contact-area .call-action-form button {
+      width: 68.754px;
+      height: 24px;
+      padding: 0px;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-shrink: 0;
+      color: #FFF;
+      font-family: Rubik;
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      text-transform: capitalize; }
   .footer-area {
     width: 100%;
     height: 147px; } }

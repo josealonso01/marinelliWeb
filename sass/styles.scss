@@ -1457,12 +1457,12 @@ p {
             margin-top : 8px;
         }
     }
-}
 
-.cards {
-    position: relative;
-    top     : -160px;
-    margin  : aut
+    .carousel {
+        position: relative;
+        top     : -160px;
+        margin  : auto
+    }
 }
 
 .rowCards {
@@ -1488,12 +1488,11 @@ p {
     align-items    : center;
     -ms-flex-pack  : center;
     justify-content: center;
-    width          : 15%;
+    margin-inline  : -13%;
     color          : black;
     text-align     : center;
     align-content  : center;
     flex-wrap      : wrap;
-    bottom         : 75%;
     flex-direction : row;
 }
 
@@ -1506,8 +1505,7 @@ p {
     background   : #D6CCBF;
     box-shadow   : 2px 2px 16px 0px rgba(0, 0, 0, 0.25);
 
-    h4 {
-        padding-top: 30px;
+    .card-title {
         color      : #73020C;
         font-family: Cormorant Garamond;
         font-size  : 24px;
@@ -1516,7 +1514,7 @@ p {
         line-height: 114.6%;
     }
 
-    p {
+    .card-text {
         color      : #727272;
         font-family: Outfit;
         font-size  : 13px;
@@ -1527,19 +1525,62 @@ p {
     }
 
     button {
-        color      : #73020C;
-        font-family: Outfit;
-        font-size  : 13px;
-        font-style : normal;
-        font-weight: 400;
-        line-height: 140%;
-        /* 18.2px */
-        width      : 43px;
-        border     : none;
-        background : none;
+        color          : #73020C;
+        font-family    : Outfit;
+        font-size      : 13px;
+        font-style     : normal;
+        font-weight    : 400;
+        line-height    : 140%;
+        width          : 43px;
+        border         : none;
+        background     : none;
+        display        : inline-flex;
+        flex-wrap      : nowrap;
+        flex-direction : column;
+        align-content  : center;
+        justify-content: center;
+        align-items    : center;
+        position       : absolute;
+        right          : 10%;
+        top            : 80%;
+
     }
 }
 
+
+.modal-card {
+    position: absolute;
+}
+
+div#modal1 {
+    top    : -60px;
+}
+
+div#modal2 {
+    top    : -60px;
+}
+
+div#modal3 {
+    top    : -60px;
+}
+
+div#modal4 {
+    top    : -60px;
+}
+
+div#modal5 {
+    top    : -60px;
+}
+
+div#modal6 {
+    top    : -60px;
+}
+
+.modal.show .modal-dialog {
+    margin  : auto;
+    position: absolute;
+    display : contents;
+}
 
 .about-areaMOBILE {
     display: none;

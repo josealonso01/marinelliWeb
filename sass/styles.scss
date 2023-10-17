@@ -2176,7 +2176,7 @@ div#modal6 {
         display        : flex;
         flex-wrap      : nowrap;
         align-content  : center;
-        justify-content: space-between;
+        justify-content: center;
         align-items    : flex-end;
         flex-direction : row;
 
@@ -2286,8 +2286,8 @@ div#modal6 {
 
         img {
             position     : relative;
-            top          : -5px;
-            margin-inline: -7%;
+            top          : 5px;
+            right: 5%;
         }
 
         p {
@@ -2304,15 +2304,14 @@ div#modal6 {
             flex-wrap      : nowrap;
             flex-direction : row;
             position       : relative;
-            margin-inline  : 3px;
-            left           : 8%;
-            top            : -5px;
+            left           : 3%;
+            top            : 5px;
         }
 
         svg {
             position: relative;
-            left    : 10%;
-            top     : -5px;
+            left    : 5%;
+            top     : 5px;
         }
     }
 }

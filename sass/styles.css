@@ -2191,7 +2191,7 @@ div#modal6 {
     padding-top: 0; }
     .contact-area .call-action-content {
       position: relative;
-      left: -5%; }
+      left: 0%; }
     .contact-area .action-title {
       color: #000;
       font-family: Cormorant Garamond;
@@ -2244,14 +2244,14 @@ div#modal6 {
       left: 16%; }
     .contact-area .call-action-form {
       display: flex;
-      margin-inline: 75px;
+      margin-inline: 45px;
       justify-content: center;
       align-items: center;
       align-content: center;
       flex-direction: row;
       flex-wrap: wrap;
       position: relative;
-      left: -10%; }
+      left: -19%; }
       .contact-area .call-action-form button {
         width: 68.754px;
         height: 24px;
@@ -2269,19 +2269,19 @@ div#modal6 {
         text-transform: capitalize; }
   .footer-area {
     width: 100%;
-    height: 147px; }
+    height: 100%; }
     .footer-area .copyright p {
       position: relative;
       display: -webkit-box;
-      top: 0%;
+      top: 50px;
       margin-bottom: 6px;
       left: 0%; }
     .footer-area .copyright img {
       position: relative;
-      left: 39%;
-      top: 75px; }
+      left: 35%;
+      top: 130px; }
     .footer-area .copyright svg {
       position: relative;
       position: relative;
       left: -40%;
-      top: -135px; } }
+      top: -85px; } }

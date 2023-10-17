@@ -1906,7 +1906,7 @@ div#modal6 {
 .inputEnviar {
     display        : flex;
     width          : 125px;
-    height         : 49px;
+    height         : 49px !important;
     padding        : 10.647px 26.973px;
     margin         : auto;
     justify-content: center;
@@ -2225,11 +2225,12 @@ div#modal6 {
     }
 
     .call-action-form {
-        display: flex;
+        display      : flex;
+        margin-inline: 90px;
 
         input {
             width      : 435px;
-            height     : 49px;
+            height     : 49px !important;
             flex-shrink: 0;
             background : #D7D7D7;
             color      : #000;
@@ -2238,7 +2239,11 @@ div#modal6 {
             font-style : normal;
             font-weight: 300;
             line-height: 140%;
-            /* 18.2px */
+
+        }
+
+        input::placeholder {
+            color: #000;
         }
 
         form {
@@ -2251,7 +2256,6 @@ div#modal6 {
         }
 
 
-        margin-inline: 90px;
 
 
         button {
@@ -2265,6 +2269,7 @@ div#modal6 {
             font-style    : normal;
             font-weight   : 500;
             line-height   : normal;
+            margin-inline : 10px;
             text-transform: capitalize;
             flex-shrink   : 0;
         }
@@ -2285,9 +2290,9 @@ div#modal6 {
     .copyright {
 
         img {
-            position     : relative;
-            top          : 5px;
-            right: 5%;
+            position: relative;
+            top     : 5px;
+            right   : 5%;
         }
 
         p {
@@ -3123,22 +3128,12 @@ div#modal6 {
 
         input#EMAIL {
             width      : 206.751px;
-            height     : 40px;
+            height     : 40px !important;
             flex-shrink: 0;
             background : #D7D7D7;
             left       : 10px;
-
-            position: relative;
-            left    : 15%;
-
-            ::placeholder {
-                color      : #000;
-                font-family: Rubik;
-                font-size  : 10px;
-                font-style : normal;
-                font-weight: 300;
-                line-height: 140%;
-            }
+            position   : relative;
+            left       : 15%;
         }
 
         button {

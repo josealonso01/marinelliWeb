@@ -1375,7 +1375,7 @@ div#modal6 {
 .inputEnviar {
   display: flex;
   width: 125px;
-  height: 49px;
+  height: 49px !important;
   padding: 10.647px 26.973px;
   margin: auto;
   justify-content: center;
@@ -1612,7 +1612,7 @@ div#modal6 {
     margin-inline: 90px; }
     .contact-area .call-action-form input {
       width: 435px;
-      height: 49px;
+      height: 49px !important;
       flex-shrink: 0;
       background: #D7D7D7;
       color: #000;
@@ -1620,8 +1620,9 @@ div#modal6 {
       font-size: 13px;
       font-style: normal;
       font-weight: 300;
-      line-height: 140%;
-      /* 18.2px */ }
+      line-height: 140%; }
+    .contact-area .call-action-form input::placeholder {
+      color: #000; }
     .contact-area .call-action-form form {
       display: flex;
       align-content: center;
@@ -1640,6 +1641,7 @@ div#modal6 {
       font-style: normal;
       font-weight: 500;
       line-height: normal;
+      margin-inline: 10px;
       text-transform: capitalize;
       flex-shrink: 0; }
 
@@ -2211,19 +2213,12 @@ div#modal6 {
       padding: 9px; }
     .contact-area input#EMAIL {
       width: 206.751px;
-      height: 40px;
+      height: 40px !important;
       flex-shrink: 0;
       background: #D7D7D7;
       left: 10px;
       position: relative;
       left: 15%; }
-      .contact-area input#EMAIL ::placeholder {
-        color: #000;
-        font-family: Rubik;
-        font-size: 10px;
-        font-style: normal;
-        font-weight: 300;
-        line-height: 140%; }
     .contact-area button {
       background: #D1B06B;
       width: 125px;

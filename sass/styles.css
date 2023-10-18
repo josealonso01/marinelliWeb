@@ -1853,81 +1853,87 @@ div#modal6 {
       /* 166.667% */
       letter-spacing: 4.453px;
       text-transform: uppercase; }
-  .about-area .carousel-inner {
-    display: flex;
-    flex-direction: column; }
-  .about-area .carousel-item {
-    display: flex;
-    flex: 0 0 100%; }
-  .about-area .carousel-control-prev,
-  .about-area .carousel-control-next {
-    display: none;
-    /* Hide previous and next controls on small screens */ }
-  .about-area .card {
-    width: 279px;
-    height: 44px;
-    flex-shrink: 0;
-    margin-bottom: 20px; }
-    .about-area .card .card-text {
-      display: none; }
-    .about-area .card .card-body {
-      color: #73020C;
-      text-align: center;
-      font-family: Cormorant Garamond;
-      font-size: 12px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: 114.6%; }
-    .about-area .card .card-title {
-      color: #73020C;
-      text-align: center;
-      font-family: Cormorant Garamond;
-      font-size: 12px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: 114.6%;
-      top: -10px;
-      position: relative; }
-    .about-area .card button {
-      position: absolute;
-      right: 0%;
-      top: 25%; }
-      .about-area .card button span {
+  .about-area {
+    padding-bottom: 0; }
+    .about-area .carousel {
+      position: relative;
+      top: -125px;
+      margin: auto; }
+    .about-area .carousel-inner {
+      display: flex;
+      flex-direction: column; }
+    .about-area .carousel-item {
+      display: flex;
+      flex: 0 0 100%; }
+    .about-area .carousel-control-prev,
+    .about-area .carousel-control-next {
+      display: none;
+      /* Hide previous and next controls on small screens */ }
+    .about-area .card {
+      width: 279px;
+      height: 44px;
+      flex-shrink: 0;
+      margin-bottom: 20px; }
+      .about-area .card .card-text {
         display: none; }
-  .about-area .modal-content {
-    width: 279px;
-    height: 278px;
-    flex-shrink: 0; }
-    .about-area .modal-content .modal-title {
-      color: #73020C;
-      text-align: center;
-      font-family: Cormorant Garamond;
-      font-size: 12px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: 114.6%;
-      /* 13.752px */ }
-    .about-area .modal-content button {
-      color: #BB9F64;
-      font-family: Outfit;
-      font-size: 8px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 140%;
-      /* 11.2px */
-      width: 4px;
-      height: 10px;
+      .about-area .card .card-body {
+        color: #73020C;
+        text-align: center;
+        font-family: Cormorant Garamond;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 114.6%; }
+      .about-area .card .card-title {
+        color: #73020C;
+        text-align: center;
+        font-family: Cormorant Garamond;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 114.6%;
+        top: -10px;
+        position: relative; }
+      .about-area .card button {
+        position: absolute;
+        right: 0%;
+        top: 25%; }
+        .about-area .card button span {
+          display: none; }
+    .about-area .modal-content {
+      width: 279px;
+      height: 278px;
       flex-shrink: 0; }
-    .about-area .modal-content .modal-body {
-      color: #727272;
-      text-align: center;
-      font-family: Outfit;
-      font-size: 8px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 140%;
-      padding: 0;
-      /* 11.2px */ }
+      .about-area .modal-content .modal-title {
+        color: #73020C;
+        text-align: center;
+        font-family: Cormorant Garamond;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 114.6%;
+        /* 13.752px */ }
+      .about-area .modal-content button {
+        color: #BB9F64;
+        font-family: Outfit;
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        /* 11.2px */
+        width: 4px;
+        height: 10px;
+        flex-shrink: 0; }
+      .about-area .modal-content .modal-body {
+        color: #727272;
+        text-align: center;
+        font-family: Outfit;
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        padding: 0;
+        /* 11.2px */ }
   .aboutText {
     display: none; }
   .header-hero {

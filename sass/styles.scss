@@ -2630,6 +2630,13 @@ div#modal6 {
     }
 
     .about-area {
+        padding-bottom: 0;
+        .carousel {
+            position: relative;
+            top     : -125px;
+            margin  : auto;
+        }
+
         .carousel-inner {
             display       : flex;
             flex-direction: column;

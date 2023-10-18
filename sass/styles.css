@@ -827,6 +827,10 @@ p {
 .carousel-item.bg_cover.active.mobile {
   display: none; }
 
+.carousel-inner .carousel-item .row {
+  margin-right: 40px;
+  margin-left: 40px; }
+
 .slider-area .bd-example .carousel .carousel-inner {
   background-color: #38f9d7; }
   .slider-area .bd-example .carousel .carousel-inner .carousel-item {
@@ -1049,7 +1053,7 @@ p {
   align-items: center;
   -ms-flex-pack: center;
   justify-content: center;
-  margin-inline: -13%;
+  margin-inline: -10%;
   color: black;
   text-align: center;
   align-content: center;
@@ -1091,7 +1095,7 @@ p {
     background: none;
     display: inline-flex;
     flex-wrap: nowrap;
-    flex-direction: column;
+    flex-direction: row;
     align-content: center;
     justify-content: center;
     align-items: center;
@@ -1898,6 +1902,8 @@ div#modal6 {
         top: 25%; }
         .about-area .card button span {
           display: none; }
+    .about-area .lastCard {
+      display: none; }
     .about-area .modal-content {
       width: 279px;
       height: 278px;

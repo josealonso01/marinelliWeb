@@ -1187,6 +1187,16 @@ p {
     display: none;
 }
 
+.carousel-inner {
+    .carousel-item {
+        .row {
+            margin-right: 40px;
+            margin-left : 40px;
+
+        }
+    }
+}
+
 .slider-area {
 
     .bd-example {
@@ -1493,7 +1503,7 @@ p {
     align-items    : center;
     -ms-flex-pack  : center;
     justify-content: center;
-    margin-inline  : -13%;
+    margin-inline  : -10%;
     color          : black;
     text-align     : center;
     align-content  : center;
@@ -1541,7 +1551,7 @@ p {
         background     : none;
         display        : inline-flex;
         flex-wrap      : nowrap;
-        flex-direction : column;
+        flex-direction : row;
         align-content  : center;
         justify-content: center;
         align-items    : center;
@@ -2594,6 +2604,8 @@ div#modal6 {
                         height     : 295px;
                         flex-shrink: 0;
 
+
+
                         .carousel-caption {
                             .carousel-title {
                                 display    : none;
@@ -2643,6 +2655,8 @@ div#modal6 {
         .carousel-item {
             display: flex;
             flex   : 0 0 100%;
+
+
         }
 
         .carousel-control-prev,
@@ -2693,6 +2707,10 @@ div#modal6 {
                     display: none;
                 }
             }
+        }
+
+        .lastCard {
+            display: none;
         }
 
         .modal-content {

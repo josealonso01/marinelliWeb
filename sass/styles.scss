@@ -1593,9 +1593,9 @@ div#modal6 {
     display : contents;
 }
 
-.about-areaMOBILE {
+/* .about-areaMOBILE {
     display: none;
-}
+} */
 
 .card2 {
     width        : 275px;
@@ -2458,15 +2458,25 @@ div#modal6 {
         }
 
         .navbar {
+            .navbar-toggler {
+                padding         : 0.25rem 0.75rem;
+                font-size       : 1.25rem;
+                line-height     : 1;
+                margin-bottom   : 8px;
+                background-color: transparent;
+                border          : 1px solid transparent;
+                border-radius   : 0.25rem;
+            }
+
             .navbar-collapse {
-                position  : absolute;
-                top       : 50px;
-                left      : 72%;
-                width     : 133px;
-                height    : 194px;
-                background: rgba(115, 2, 12, 0.9);
-                z-index   : 8;
-                padding   : 12px 10px;
+                position   : absolute;
+                top        : 50px;
+                width      : 133px;
+                height     : 194px;
+                background : rgba(115, 2, 12, 0.9);
+                z-index    : 8;
+                padding    : 12px 10px;
+                margin-left: 300px;
             }
 
             .navbar-nav {
@@ -2620,26 +2630,30 @@ div#modal6 {
     }
 
     .about-area {
-        display: none;
-    }
+        .carousel-inner {
+            display       : flex;
+            flex-direction: column;
+        }
 
-    .about-areaMOBILE {
-        display         : block;
-        background-color: #fff;
-        padding-top     : 100px;
+        .carousel-item {
+            display: flex;
+            flex   : 0 0 100%;
+        }
+
+        .carousel-control-prev,
+        .carousel-control-next {
+            display: none;
+            /* Hide previous and next controls on small screens */
+        }
 
         .card {
             width        : 279px;
             height       : 44px;
-            margin-top   : 13px;
-            position     : relative;
             flex-shrink  : 0;
-            top          : -135px;
-            margin-bottom: 25px;
+            margin-bottom: 20px;
 
-            button {
-                right: 0%;
-                top  : 0%;
+            .card-text {
+                display: none;
             }
 
             .card-body {
@@ -2664,57 +2678,22 @@ div#modal6 {
                 position   : relative;
 
             }
+
+            button {
+                position: absolute;
+                right   : 0%;
+                top     : 25%;
+
+                span {
+                    display: none;
+                }
+            }
         }
 
-    }
-
-    div#exampleModalMobile {
-        margin: auto;
-        left  : 19%;
-        top   : 10%;
-    }
-
-
-    div#exampleModalMobile2 {
-        margin: auto;
-        left  : 20%;
-        top   : 31%;
-    }
-
-    div#exampleModalMobile3 {
-        margin: auto;
-        left  : 20%;
-        top   : 31%;
-    }
-
-    div#exampleModalMobile4 {
-        margin: auto;
-        left  : 20%;
-        top   : 31%;
-    }
-
-    div#exampleModalMobile5 {
-        margin: auto;
-        left  : 20%;
-        top   : 31%;
-    }
-
-    .modal-content-mobile-first {
-        width        : 279px;
-        height       : 278px;
-        flex-shrink  : 0;
-        border-radius: 12px;
-        background   : #D6CCBF;
-
-        .modal-header {
-            display                : flex;
-            align-items            : center;
-            border-top-left-radius : 0.3rem;
-            border-top-right-radius: 0.3rem;
-            justify-content        : center;
-            flex-wrap              : nowrap;
-            border                 : none;
-            padding                : 15px;
+        .modal-content {
+            width      : 279px;
+            height     : 278px;
+            flex-shrink: 0;
 
             .modal-title {
                 color      : #73020C;
@@ -2725,84 +2704,40 @@ div#modal6 {
                 font-weight: 700;
                 line-height: 114.6%;
                 /* 13.752px */
-                width      : 214.323px;
-                height     : 19.595px;
-                flex-shrink: 0;
             }
 
-        }
-
-        .modal-body {
-            color      : #727272;
-            text-align : center;
-            font-family: Outfit;
-            font-size  : 8px;
-            font-style : normal;
-            font-weight: 400;
-            line-height: 140%;
-            width      : 231px;
-            height     : 212px;
-            padding    : 0;
-            margin     : auto;
-        }
-    }
-
-    .modal-content-mobile {
-        width        : 279px;
-        height       : 111px;
-        flex-shrink  : 0;
-        border-radius: 12px;
-        background   : #D6CCBF;
-
-        .modal-header {
-            display                : flex;
-            align-items            : center;
-            border-top-left-radius : 0.3rem;
-            border-top-right-radius: 0.3rem;
-            justify-content        : center;
-            flex-wrap              : nowrap;
-            border                 : none;
-            padding                : 15px;
-
-            .modal-title {
-                color      : #73020C;
-                text-align : center;
-                font-family: Cormorant Garamond;
-                font-size  : 12px;
+            button {
+                color      : #BB9F64;
+                font-family: Outfit;
+                font-size  : 8px;
                 font-style : normal;
-                font-weight: 700;
-                line-height: 114.6%;
-                /* 13.752px */
-                width      : 214.323px;
-                height     : 19.595px;
+                font-weight: 400;
+                line-height: 140%;
+                /* 11.2px */
+                width      : 4px;
+                height     : 10px;
                 flex-shrink: 0;
             }
 
-        }
-
-        .modal-body {
-            color      : #727272;
-            text-align : center;
-            font-family: Outfit;
-            font-size  : 8px;
-            font-style : normal;
-            font-weight: 400;
-            line-height: 140%;
-            width      : 231px;
-            height     : 212px;
-            padding    : 0;
-            margin     : auto;
+            .modal-body {
+                color      : #727272;
+                text-align : center;
+                font-family: Outfit;
+                font-size  : 8px;
+                font-style : normal;
+                font-weight: 400;
+                line-height: 140%;
+                padding    : 0;
+                /* 11.2px */
+            }
         }
     }
+
 
     .aboutText {
         display: none;
     }
 
-    .carousel-control-next,
-    .carousel-control-prev {
-        display: none;
-    }
 
     .header-hero {
         height: 650px;

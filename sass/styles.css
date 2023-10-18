@@ -1131,9 +1131,9 @@ div#modal6 {
   position: absolute;
   display: contents; }
 
-.about-areaMOBILE {
-  display: none; }
-
+/* .about-areaMOBILE {
+    display: none;
+} */
 .card2 {
   width: 275px;
   height: 246px;
@@ -1749,15 +1749,23 @@ div#modal6 {
     padding: 10px 0; }
     .navbar-area .navbar-brand img {
       margin-inline: 0px; }
+    .navbar-area .navbar .navbar-toggler {
+      padding: 0.25rem 0.75rem;
+      font-size: 1.25rem;
+      line-height: 1;
+      margin-bottom: 8px;
+      background-color: transparent;
+      border: 1px solid transparent;
+      border-radius: 0.25rem; }
     .navbar-area .navbar .navbar-collapse {
       position: absolute;
       top: 50px;
-      left: 72%;
       width: 133px;
       height: 194px;
       background: rgba(115, 2, 12, 0.9);
       z-index: 8;
-      padding: 12px 10px; }
+      padding: 12px 10px;
+      margin-left: 300px; }
     .navbar-area .navbar .navbar-nav {
       margin-right: 0; }
       .navbar-area .navbar .navbar-nav .nav-item a {
@@ -1845,89 +1853,72 @@ div#modal6 {
       /* 166.667% */
       letter-spacing: 4.453px;
       text-transform: uppercase; }
-  .about-area {
-    display: none; }
-  .about-areaMOBILE {
-    display: block;
-    background-color: #fff;
-    padding-top: 100px; }
-    .about-areaMOBILE .card {
-      width: 279px;
-      height: 44px;
-      margin-top: 13px;
-      position: relative;
-      flex-shrink: 0;
-      top: -135px;
-      margin-bottom: 25px; }
-      .about-areaMOBILE .card button {
-        right: 0%;
-        top: 0%; }
-      .about-areaMOBILE .card .card-body {
-        color: #73020C;
-        text-align: center;
-        font-family: Cormorant Garamond;
-        font-size: 12px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 114.6%; }
-      .about-areaMOBILE .card .card-title {
-        color: #73020C;
-        text-align: center;
-        font-family: Cormorant Garamond;
-        font-size: 12px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 114.6%;
-        top: -10px;
-        position: relative; }
-  div#exampleModalMobile {
-    margin: auto;
-    left: 19%;
-    top: 10%; }
-  div#exampleModalMobile2 {
-    margin: auto;
-    left: 20%;
-    top: 31%; }
-  div#exampleModalMobile3 {
-    margin: auto;
-    left: 20%;
-    top: 31%; }
-  div#exampleModalMobile4 {
-    margin: auto;
-    left: 20%;
-    top: 31%; }
-  div#exampleModalMobile5 {
-    margin: auto;
-    left: 20%;
-    top: 31%; }
-  .modal-content-mobile-first {
+  .about-area .carousel-inner {
+    display: flex;
+    flex-direction: column; }
+  .about-area .carousel-item {
+    display: flex;
+    flex: 0 0 100%; }
+  .about-area .carousel-control-prev,
+  .about-area .carousel-control-next {
+    display: none;
+    /* Hide previous and next controls on small screens */ }
+  .about-area .card {
+    width: 279px;
+    height: 44px;
+    flex-shrink: 0;
+    margin-bottom: 20px; }
+    .about-area .card .card-text {
+      display: none; }
+    .about-area .card .card-body {
+      color: #73020C;
+      text-align: center;
+      font-family: Cormorant Garamond;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 114.6%; }
+    .about-area .card .card-title {
+      color: #73020C;
+      text-align: center;
+      font-family: Cormorant Garamond;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 114.6%;
+      top: -10px;
+      position: relative; }
+    .about-area .card button {
+      position: absolute;
+      right: 0%;
+      top: 25%; }
+      .about-area .card button span {
+        display: none; }
+  .about-area .modal-content {
     width: 279px;
     height: 278px;
-    flex-shrink: 0;
-    border-radius: 12px;
-    background: #D6CCBF; }
-    .modal-content-mobile-first .modal-header {
-      display: flex;
-      align-items: center;
-      border-top-left-radius: 0.3rem;
-      border-top-right-radius: 0.3rem;
-      justify-content: center;
-      flex-wrap: nowrap;
-      border: none;
-      padding: 15px; }
-      .modal-content-mobile-first .modal-header .modal-title {
-        color: #73020C;
-        text-align: center;
-        font-family: Cormorant Garamond;
-        font-size: 12px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 114.6%;
-        /* 13.752px */
-        width: 214.323px;
-        height: 19.595px;
-        flex-shrink: 0; }
-    .modal-content-mobile-first .modal-body {
+    flex-shrink: 0; }
+    .about-area .modal-content .modal-title {
+      color: #73020C;
+      text-align: center;
+      font-family: Cormorant Garamond;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 114.6%;
+      /* 13.752px */ }
+    .about-area .modal-content button {
+      color: #BB9F64;
+      font-family: Outfit;
+      font-size: 8px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 140%;
+      /* 11.2px */
+      width: 4px;
+      height: 10px;
+      flex-shrink: 0; }
+    .about-area .modal-content .modal-body {
       color: #727272;
       text-align: center;
       font-family: Outfit;
@@ -1935,53 +1926,9 @@ div#modal6 {
       font-style: normal;
       font-weight: 400;
       line-height: 140%;
-      width: 231px;
-      height: 212px;
       padding: 0;
-      margin: auto; }
-  .modal-content-mobile {
-    width: 279px;
-    height: 111px;
-    flex-shrink: 0;
-    border-radius: 12px;
-    background: #D6CCBF; }
-    .modal-content-mobile .modal-header {
-      display: flex;
-      align-items: center;
-      border-top-left-radius: 0.3rem;
-      border-top-right-radius: 0.3rem;
-      justify-content: center;
-      flex-wrap: nowrap;
-      border: none;
-      padding: 15px; }
-      .modal-content-mobile .modal-header .modal-title {
-        color: #73020C;
-        text-align: center;
-        font-family: Cormorant Garamond;
-        font-size: 12px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 114.6%;
-        /* 13.752px */
-        width: 214.323px;
-        height: 19.595px;
-        flex-shrink: 0; }
-    .modal-content-mobile .modal-body {
-      color: #727272;
-      text-align: center;
-      font-family: Outfit;
-      font-size: 8px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 140%;
-      width: 231px;
-      height: 212px;
-      padding: 0;
-      margin: auto; }
+      /* 11.2px */ }
   .aboutText {
-    display: none; }
-  .carousel-control-next,
-  .carousel-control-prev {
     display: none; }
   .header-hero {
     height: 650px; }

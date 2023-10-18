@@ -3068,6 +3068,7 @@ div#modal6 {
             font-size  : 16px;
             font-style : normal;
             font-weight: 700;
+            margin-left: -10%;
             line-height: 114.6%;
             /* 18.336px */
         }
@@ -3080,6 +3081,7 @@ div#modal6 {
             font-weight   : 400;
             line-height   : normal;
             letter-spacing: 4.453px;
+            margin-left   : -10%;
             text-transform: uppercase;
             padding       : 9px;
         }
@@ -3122,7 +3124,7 @@ div#modal6 {
             flex-direction : row;
             flex-wrap      : wrap;
             position       : relative;
-            left           : -19%;
+            left           : -15%;
 
             button {
                 width          : 68.754px;
@@ -3149,24 +3151,24 @@ div#modal6 {
 
         .copyright {
             p {
-                position     : relative;
-                display      : -webkit-box;
-                top          : 50px;
-                margin-bottom: 6px;
-                left         : 0%;
+                position   : relative;
+                display    : -webkit-box;
+                top        : 45px;
+                padding-top: 15px;
+                left       : 0%;
             }
 
             img {
                 position: relative;
                 left    : 35%;
-                top     : 130px;
+                top     : 168px;
             }
 
             svg {
                 position: relative;
                 position: relative;
                 left    : -40%;
-                top     : -85px;
+                top     : -135px;
 
 
             }

@@ -1902,6 +1902,37 @@ div#modal6 {
         top: 25%; }
         .about-area .card button span {
           display: none; }
+    .about-area div#modal1 {
+      top: -25px;
+      padding-right: 0px !important; }
+    .about-area div#modal2 {
+      top: 40px;
+      padding-right: 0px !important; }
+      .about-area div#modal2 .modal-content {
+        width: 279px;
+        height: 105px;
+        flex-shrink: 0; }
+    .about-area div#modal3 {
+      top: 104px;
+      padding-right: 0px !important; }
+      .about-area div#modal3 .modal-content {
+        width: 279px;
+        height: 111px;
+        flex-shrink: 0; }
+    .about-area div#modal4 {
+      top: 168px;
+      padding-right: 0px !important; }
+      .about-area div#modal4 .modal-content {
+        width: 279px;
+        height: 131px;
+        flex-shrink: 0; }
+    .about-area div#modal5 {
+      top: 232px;
+      padding-right: 0px !important; }
+      .about-area div#modal5 .modal-content {
+        width: 279px;
+        height: 172px;
+        flex-shrink: 0; }
     .about-area .lastCard {
       display: none; }
     .about-area .modal-content {

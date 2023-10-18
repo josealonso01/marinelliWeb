@@ -2709,6 +2709,55 @@ div#modal6 {
             }
         }
 
+        div#modal1 {
+            top          : -25px;
+            padding-right: 0px !important;
+        }
+
+        div#modal2 {
+            top          : 40px;
+            padding-right: 0px !important;
+
+            .modal-content {
+                width      : 279px;
+                height     : 105px;
+                flex-shrink: 0;
+            }
+        }
+
+        div#modal3 {
+            top          : 104px;
+            padding-right: 0px !important;
+
+            .modal-content {
+                width      : 279px;
+                height     : 111px;
+                flex-shrink: 0;
+            }
+        }
+
+        div#modal4 {
+            top          : 168px;
+            padding-right: 0px !important;
+
+            .modal-content {
+                width      : 279px;
+                height     : 131px;
+                flex-shrink: 0;
+            }
+        }
+
+        div#modal5 {
+            top          : 232px;
+            padding-right: 0px !important;
+
+            .modal-content {
+                width      : 279px;
+                height     : 172px;
+                flex-shrink: 0;
+            }
+        }
+
         .lastCard {
             display: none;
         }

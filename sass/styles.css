@@ -1675,8 +1675,9 @@ div#modal6 {
     align-content: center;
     flex-wrap: nowrap;
     flex-direction: row;
+    margin-inline: 15px;
     position: relative;
-    left: 3%;
+    left: -2%;
     top: 5px; }
   .footer-area .copyright svg {
     position: relative;
@@ -2005,13 +2006,13 @@ div#modal6 {
         line-height: 114.6%;
         margin-top: 23px; }
       .portfolio-area .section-title .text {
-        width: 280px;
+        width: 421px;
         height: 197.635px;
         flex-shrink: 0;
         color: #FFF;
         text-align: center;
         font-family: Rubik;
-        font-size: 10px;
+        font-size: 12px;
         margin-top: -40px;
         font-style: normal;
         font-weight: 300;
@@ -2019,7 +2020,7 @@ div#modal6 {
         .portfolio-area .section-title .text span {
           color: #D1B06B;
           font-family: Rubik;
-          font-size: 10px;
+          font-size: 12px;
           font-style: normal;
           font-weight: 300;
           line-height: 114.6%; }
@@ -2257,15 +2258,15 @@ div#modal6 {
     .footer-area .copyright p {
       position: relative;
       display: -webkit-box;
-      top: 45px;
+      top: 25px;
       padding-top: 15px;
       left: 0%; }
     .footer-area .copyright img {
       position: relative;
       left: 35%;
-      top: 168px; }
-    .footer-area .copyright svg {
+      top: 150px; }
+    .footer-area .copyright a {
       position: relative;
       position: relative;
-      left: -40%;
-      top: -135px; } }
+      left: -37%;
+      top: -145px; } }

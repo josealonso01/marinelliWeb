@@ -2318,8 +2318,9 @@ div#modal6 {
             align-content  : center;
             flex-wrap      : nowrap;
             flex-direction : row;
+            margin-inline  : 15px;
             position       : relative;
-            left           : 3%;
+            left           : -2%;
             top            : 5px;
         }
 
@@ -2866,13 +2867,13 @@ div#modal6 {
             }
 
             .text {
-                width      : 280px;
+                width      : 421px;
                 height     : 197.635px;
                 flex-shrink: 0;
                 color      : #FFF;
                 text-align : center;
                 font-family: Rubik;
-                font-size  : 10px;
+                font-size  : 12px;
                 margin-top : -40px;
                 font-style : normal;
                 font-weight: 300;
@@ -2881,7 +2882,7 @@ div#modal6 {
                 span {
                     color      : #D1B06B;
                     font-family: Rubik;
-                    font-size  : 10px;
+                    font-size  : 12px;
                     font-style : normal;
                     font-weight: 300;
                     line-height: 114.6%;
@@ -3202,7 +3203,7 @@ div#modal6 {
             p {
                 position   : relative;
                 display    : -webkit-box;
-                top        : 45px;
+                top        : 25px;
                 padding-top: 15px;
                 left       : 0%;
             }
@@ -3210,14 +3211,14 @@ div#modal6 {
             img {
                 position: relative;
                 left    : 35%;
-                top     : 168px;
+                top     : 150px;
             }
 
-            svg {
+            a {
                 position: relative;
                 position: relative;
-                left    : -40%;
-                top     : -135px;
+                left    : -37%;
+                top     : -145px;
 
 
             }

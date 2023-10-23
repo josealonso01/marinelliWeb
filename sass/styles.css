@@ -2188,7 +2188,7 @@ div#modal6 {
       flex-direction: column;
       flex-wrap: nowrap;
       position: relative;
-      left: 5%; }
+      margin-inline: 15%; }
     .contact-area .action-title {
       color: #000;
       font-family: Cormorant Garamond;

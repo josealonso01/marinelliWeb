@@ -2710,10 +2710,6 @@ div#modal6 {
             }
         }
 
-        .modal-content {
-            left: 20px;
-        }
-
         div#modal1 {
             top          : -25px;
             padding-right: 0px !important;
@@ -2769,9 +2765,10 @@ div#modal6 {
         }
 
         .modal-content {
-            width      : 279px;
-            height     : 278px;
-            flex-shrink: 0;
+            width       : 279px;
+            height      : 278px;
+            margin-left : 73px;
+            margin-right: 73px;
 
             .modal-title {
                 color      : #73020C;
@@ -3203,6 +3200,11 @@ div#modal6 {
                 text-transform : capitalize;
             }
         }
+    }
+
+    #sib-form {
+        position: relative;
+        left    : -3%;
     }
 
     .footer-area {

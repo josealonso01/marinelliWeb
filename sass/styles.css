@@ -1903,8 +1903,6 @@ div#modal6 {
         top: 25%; }
         .about-area .card button span {
           display: none; }
-    .about-area .modal-content {
-      left: 20px; }
     .about-area div#modal1 {
       top: -25px;
       padding-right: 0px !important; }
@@ -1941,7 +1939,8 @@ div#modal6 {
     .about-area .modal-content {
       width: 279px;
       height: 278px;
-      flex-shrink: 0; }
+      margin-left: 73px;
+      margin-right: 73px; }
       .about-area .modal-content .modal-title {
         color: #73020C;
         text-align: center;
@@ -2259,6 +2258,9 @@ div#modal6 {
         font-weight: 500;
         line-height: normal;
         text-transform: capitalize; }
+  #sib-form {
+    position: relative;
+    left: -3%; }
   .footer-area {
     width: 100%;
     height: 100%; }

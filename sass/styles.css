@@ -1860,8 +1860,14 @@ div#modal6 {
     padding-bottom: 0; }
     .about-area .carousel {
       position: relative;
+      display: flex;
       top: -125px;
-      margin: auto; }
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      margin-inline: -5%; }
     .about-area .carousel-inner {
       display: flex;
       flex-direction: column; }
@@ -2126,7 +2132,7 @@ div#modal6 {
       background-color: #FFF; }
       .call-action-area .image button iframe {
         width: 365px;
-        height: 116px;
+        height: 114px;
         position: relative;
         background: #FFF; }
   .testimonial-area {

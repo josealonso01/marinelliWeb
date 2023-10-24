@@ -2643,9 +2643,16 @@ div#modal6 {
         padding-bottom: 0;
 
         .carousel {
-            position: relative;
-            top     : -125px;
-            margin  : auto;
+            position       : relative;
+            display        : flex;
+            top            : -125px;
+            align-content  : center;
+            justify-content: center;
+            align-items    : center;
+            flex-direction : column;
+            flex-wrap      : nowrap;
+            margin-inline  : -5%;
+
         }
 
         .carousel-inner {
@@ -3028,7 +3035,7 @@ div#modal6 {
 
                 iframe {
                     width     : 365px;
-                    height    : 116px;
+                    height    : 114px;
                     position  : relative;
                     background: #FFF;
                 }

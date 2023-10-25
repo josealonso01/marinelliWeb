@@ -2936,7 +2936,9 @@ div#modal6 {
             bottom    : 712px;
 
             .form-group {
-                margin-inline: 25%;
+                position    : relative;
+                margin-left : 20%;
+                margin-right: 25%;
             }
 
             h2 {
@@ -2972,12 +2974,12 @@ div#modal6 {
                 background    : #D1B06B;
                 box-shadow    : 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
                 width         : 72.414px;
-                height        : 28.386px;
+                height        : 28.386px !important;
                 position      : relative;
                 padding       : 5px;
                 color         : #FFF;
                 font-family   : Rubik;
-                margin-inline : 90%;
+                margin-inline : 100%;
                 font-size     : 10px;
                 font-style    : normal;
                 font-weight   : 500;
@@ -3011,16 +3013,16 @@ div#modal6 {
             }
 
             h2 {
-                width      : 97px;
-                height     : 19px;
-                color      : #800000;
-                font-family: Cormorant Garamond;
-                font-size  : 16px;
-                font-style : normal;
-                font-weight: 700;
-                line-height: 114.6%;
-                margin     : auto;
-                left       : 5%;
+                width        : 97px;
+                height       : 19px;
+                color        : #800000;
+                font-family  : Cormorant Garamond;
+                font-size    : 16px;
+                font-style   : normal;
+                font-weight  : 700;
+                line-height  : 114.6%;
+                margin       : auto;
+                margin-inline: 25%;
             }
 
             p {

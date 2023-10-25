@@ -2045,8 +2045,9 @@ div#modal6 {
     background: none;
     display: block;
     position: relative;
-    bottom: 712px;
-    margin: auto; }
+    bottom: 712px; }
+    .register-photo form .form-group {
+      margin-inline: 25%; }
     .register-photo form h2 {
       color: #1F2732;
       text-align: center;
@@ -2057,13 +2058,14 @@ div#modal6 {
       line-height: 114.6%;
       margin: auto;
       width: 60px;
-      height: 27px; }
+      height: 27px;
+      position: relative;
+      margin-inline: 100%; }
     .register-photo form .form-control {
       background: none;
       width: 281px;
       height: 0.629px;
       position: relative;
-      right: 50%;
       color: #000;
       font-family: Rubik;
       font-size: 10px;
@@ -2080,6 +2082,7 @@ div#modal6 {
       padding: 5px;
       color: #FFF;
       font-family: Rubik;
+      margin-inline: 90%;
       font-size: 10px;
       font-style: normal;
       font-weight: 500;
@@ -2176,25 +2179,25 @@ div#modal6 {
       line-height: 114.6%;
       width: 280px;
       height: 159px; }
-  .contact-area #sib-form {
-    text-align: center;
-    display: flex;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: space-between;
-    align-items: flex-end;
-    flex-direction: column; }
   .contact-area {
     padding-top: 0; }
-    .contact-area .call-action-content {
+    .contact-area #sib-form {
+      text-align: center;
       display: flex;
+      flex-wrap: nowrap;
+      align-content: center;
       justify-content: center;
       align-items: center;
-      align-content: center;
+      flex-direction: column; }
+    .contact-area .call-action-content {
+      margin-inline: 5%;
+      display: flex;
       flex-direction: column;
       flex-wrap: nowrap;
       position: relative;
-      margin-inline: 15%; }
+      align-content: center;
+      align-items: center;
+      justify-content: center; }
     .contact-area .action-title {
       color: #000;
       font-family: Cormorant Garamond;
@@ -2239,16 +2242,15 @@ div#modal6 {
       flex-shrink: 0;
       position: relative;
       flex-shrink: 0;
-      left: 16%; }
+      left: 9%; }
     .contact-area .call-action-form {
       display: flex;
-      justify-content: center;
-      align-items: center;
-      align-content: center;
       flex-direction: row;
-      flex-wrap: nowrap;
       position: relative;
-      left: 0%; }
+      align-items: center;
+      justify-content: center;
+      align-content: center;
+      margin-inline: 25%; }
       .contact-area .call-action-form button {
         width: 68.754px;
         height: 24px;
@@ -2275,7 +2277,7 @@ div#modal6 {
       display: -webkit-box;
       top: 25px;
       padding-top: 15px;
-      left: 0%; }
+      left: -6%; }
     .footer-area .copyright img {
       position: relative;
       left: 38%;
@@ -2283,5 +2285,5 @@ div#modal6 {
     .footer-area .copyright a {
       position: relative;
       position: relative;
-      left: -37%;
+      left: -42%;
       top: -145px; } }

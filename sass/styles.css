@@ -2040,7 +2040,9 @@ div#modal6 {
           font-weight: 300;
           line-height: 114.6%; }
   .pricing-area {
-    height: 406px; }
+    height: 406px;
+    justify-content: center;
+    align-items: center; }
   .register-photo .form-container {
     display: inline-block;
     box-shadow: none; }
@@ -2051,14 +2053,19 @@ div#modal6 {
       display: none; }
   .register-photo form {
     background: none;
-    display: block;
-    padding: initial;
+    display: flex;
+    padding: 0;
     position: relative;
-    bottom: 680px; }
+    bottom: 670px;
+    margin: auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center; }
     .register-photo form .form-group {
       position: relative;
-      width: auto;
-      left: auto; }
+      width: auto; }
     .register-photo form h2 {
       color: #1F2732;
       text-align: center;
@@ -2070,8 +2077,7 @@ div#modal6 {
       width: 60px;
       height: 27px;
       position: relative;
-      margin: auto;
-      left: 50%; }
+      margin: auto; }
     .register-photo form .form-control {
       background: none;
       width: 274.593px;
@@ -2082,10 +2088,7 @@ div#modal6 {
       font-size: 10px;
       font-style: normal;
       font-weight: 300;
-      margin-inline: auto;
-      left: 30%;
-      line-height: 140%;
-      margin: auto; }
+      line-height: 140%; }
     .register-photo form .inputEnviar {
       background: #D1B06B;
       box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -2095,7 +2098,6 @@ div#modal6 {
       padding: 5px;
       color: #FFF;
       font-family: Rubik;
-      margin-inline: 80%;
       font-size: 10px;
       font-style: normal;
       font-weight: 500;

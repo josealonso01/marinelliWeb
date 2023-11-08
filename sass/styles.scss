@@ -2935,42 +2935,45 @@ div#modal6 {
         form {
             background: none;
             display   : block;
+            padding   : initial;
             position  : relative;
-            bottom    : 712px;
+            bottom    : 680px;
 
             .form-group {
-                position    : relative;
-                margin-left : 20%;
-                margin-right: 25%;
+                position: relative;
+                width   : auto;
+                left    : auto;
             }
 
             h2 {
-                color        : #1F2732;
-                text-align   : center;
-                font-family  : Cormorant Garamond;
-                font-size    : 16px;
-                font-style   : normal;
-                font-weight  : 700;
-                line-height  : 114.6%;
-                margin       : auto;
-                width        : 60px;
-                height       : 27px;
-                position     : relative;
-                margin-inline: 100%;
+                color      : #1F2732;
+                text-align : center;
+                font-family: Cormorant Garamond;
+                font-size  : 16px;
+                font-style : normal;
+                font-weight: 700;
+                line-height: 114.6%;
+                width      : 60px;
+                height     : 27px;
+                position   : relative;
+                margin     : auto;
+                left       : 50%;
             }
 
             .form-control {
-                background : none;
-                width      : 281px;
-                height     : 0.629px;
-                position   : relative;
-                color      : #000;
-                font-family: Rubik;
-                font-size  : 10px;
-                font-style : normal;
-                font-weight: 300;
-                line-height: 140%;
-                /* 14px */
+                background   : none;
+                width        : 274.593px;
+                height       : 0.629px;
+                position     : relative;
+                color        : #000;
+                font-family  : Rubik;
+                font-size    : 10px;
+                font-style   : normal;
+                font-weight  : 300;
+                margin-inline: auto;
+                left         : 30%;
+                line-height  : 140%;
+                margin       : auto;
             }
 
             .inputEnviar {
@@ -2982,7 +2985,7 @@ div#modal6 {
                 padding       : 5px;
                 color         : #FFF;
                 font-family   : Rubik;
-                margin-inline : 100%;
+                margin-inline : 80%;
                 font-size     : 10px;
                 font-style    : normal;
                 font-weight   : 500;

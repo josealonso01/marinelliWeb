@@ -2619,7 +2619,6 @@ div#modal6 {
                                 height        : 38px;
                                 flex-shrink   : 0;
                                 margin        : auto;
-                                right         : 0%;
                                 color         : #FFF;
                                 text-align    : center;
                                 font-family   : Rubik;
@@ -2627,7 +2626,6 @@ div#modal6 {
                                 font-style    : normal;
                                 font-weight   : 400;
                                 line-height   : 20px;
-                                /* 166.667% */
                                 letter-spacing: 4.453px;
                                 text-transform: uppercase;
                             }
@@ -3018,25 +3016,25 @@ div#modal6 {
             align-items    : stretch;
 
             img {
-                width        : 27.394px;
-                margin       : auto;
-                margin-inline: 0;
-                height       : 25.866px;
-                position     : relative;
-                left         : 48%;
+                width   : 27.394px;
+                margin  : auto;
+                height  : 25.866px;
+                position: relative;
             }
 
             h2 {
-                width        : 97px;
-                height       : 19px;
-                color        : #800000;
-                font-family  : Cormorant Garamond;
-                font-size    : 16px;
-                font-style   : normal;
-                font-weight  : 700;
-                line-height  : 114.6%;
-                margin       : auto;
-                margin-inline: 24%;
+                width      : 97px;
+                height     : 19px;
+                color      : #800000;
+                font-family: Cormorant Garamond;
+                font-size  : 16px;
+                font-style : normal;
+                font-weight: 700;
+                line-height: 114.6%;
+                margin     : auto;
+                padding    : 0;
+                top        : 20px;
+                left: 0;
             }
 
             p {

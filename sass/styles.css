@@ -1845,7 +1845,6 @@ div#modal6 {
       height: 38px;
       flex-shrink: 0;
       margin: auto;
-      right: 0%;
       color: #FFF;
       text-align: center;
       font-family: Rubik;
@@ -1853,7 +1852,6 @@ div#modal6 {
       font-style: normal;
       font-weight: 400;
       line-height: 20px;
-      /* 166.667% */
       letter-spacing: 4.453px;
       text-transform: uppercase; }
   .about-area {
@@ -2122,10 +2120,8 @@ div#modal6 {
       .call-action-area .text img {
         width: 27.394px;
         margin: auto;
-        margin-inline: 0;
         height: 25.866px;
-        position: relative;
-        left: 48%; }
+        position: relative; }
       .call-action-area .text h2 {
         width: 97px;
         height: 19px;
@@ -2136,7 +2132,9 @@ div#modal6 {
         font-weight: 700;
         line-height: 114.6%;
         margin: auto;
-        margin-inline: 24%; }
+        padding: 0;
+        top: 20px;
+        left: 0; }
       .call-action-area .text p {
         width: 252px;
         height: 13px;

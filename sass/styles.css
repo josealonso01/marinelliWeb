@@ -2109,14 +2109,14 @@ div#modal6 {
       justify-content: center;
       align-items: center;
       align-content: center;
-      flex-wrap: wrap;
       flex-direction: column; }
     .call-action-area .text {
       display: flex;
       flex-direction: column;
       align-content: center;
       justify-content: center;
-      align-items: stretch; }
+      align-items: stretch;
+      flex-wrap: nowrap; }
       .call-action-area .text img {
         width: 27.394px;
         margin: auto;

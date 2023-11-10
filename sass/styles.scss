@@ -3004,7 +3004,6 @@ div#modal6 {
             justify-content: center;
             align-items    : center;
             align-content  : center;
-            flex-wrap      : wrap;
             flex-direction : column;
         }
 
@@ -3014,6 +3013,7 @@ div#modal6 {
             align-content  : center;
             justify-content: center;
             align-items    : stretch;
+            flex-wrap      : nowrap;
 
             img {
                 width   : 27.394px;
@@ -3034,7 +3034,7 @@ div#modal6 {
                 margin     : auto;
                 padding    : 0;
                 top        : 20px;
-                left: 0;
+                left       : 0;
             }
 
             p {

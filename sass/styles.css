@@ -2113,37 +2113,43 @@ div#modal6 {
       align-content: center;
       flex-wrap: wrap;
       flex-direction: column; }
-    .call-action-area .text img {
-      width: 27.394px;
-      margin: auto;
-      margin-inline: 0;
-      height: 25.866px;
-      position: relative;
-      left: 48%; }
-    .call-action-area .text h2 {
-      width: 97px;
-      height: 19px;
-      color: #800000;
-      font-family: Cormorant Garamond;
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: 114.6%;
-      margin: auto;
-      margin-inline: 24%; }
-    .call-action-area .text p {
-      width: 252px;
-      height: 13px;
-      color: #D1B06B;
-      font-family: Rubik;
-      font-size: 10px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: 140%;
-      border: none;
-      margin: auto;
-      margin-top: 40px;
-      left: 5%; }
+    .call-action-area .text {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      justify-content: center;
+      align-items: stretch; }
+      .call-action-area .text img {
+        width: 27.394px;
+        margin: auto;
+        margin-inline: 0;
+        height: 25.866px;
+        position: relative;
+        left: 48%; }
+      .call-action-area .text h2 {
+        width: 97px;
+        height: 19px;
+        color: #800000;
+        font-family: Cormorant Garamond;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 114.6%;
+        margin: auto;
+        margin-inline: 24%; }
+      .call-action-area .text p {
+        width: 252px;
+        height: 13px;
+        color: #D1B06B;
+        font-family: Rubik;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 140%;
+        border: none;
+        margin: auto;
+        margin-top: 40px;
+        left: 5%; }
     .call-action-area .image button {
       margin-inline: 0;
       margin-top: 50px;

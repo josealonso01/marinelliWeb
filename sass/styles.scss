@@ -3011,6 +3011,12 @@ div#modal6 {
         }
 
         .text {
+            display        : flex;
+            flex-direction : column;
+            align-content  : center;
+            justify-content: center;
+            align-items    : stretch;
+
             img {
                 width        : 27.394px;
                 margin       : auto;

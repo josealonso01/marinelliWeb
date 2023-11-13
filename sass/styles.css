@@ -1032,6 +1032,9 @@ p {
     top: -160px;
     margin: auto; }
 
+.modal-open {
+  padding-right: 0px !important; }
+
 .rowCards {
   display: flex;
   -ms-flex-wrap: wrap;
@@ -1135,45 +1138,6 @@ div#modal6 {
   position: absolute;
   display: contents; }
 
-/* .about-areaMOBILE {
-    display: none;
-} */
-.card2 {
-  width: 275px;
-  height: 246px;
-  margin: auto;
-  flex-shrink: 0;
-  border-radius: 20px;
-  background: #D6CCBF;
-  box-shadow: 2px 2px 16px 0px rgba(0, 0, 0, 0.25); }
-  .card2 h4 {
-    padding-top: 30px;
-    color: #73020C;
-    font-family: Cormorant Garamond;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 114.6%; }
-  .card2 p {
-    color: #727272;
-    font-family: Outfit;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 140%;
-    /* 18.2px */ }
-  .card2 button {
-    color: #73020C;
-    font-family: Outfit;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 140%;
-    /* 18.2px */
-    width: 43px;
-    border: none;
-    background: none; }
-
 .modal.show .modal-dialog {
   margin: auto;
   position: absolute; }
@@ -1260,7 +1224,8 @@ div#modal6 {
       font-size: 24px;
       font-style: normal;
       font-weight: 300;
-      line-height: 114.6%; }
+      line-height: 114.6%;
+      display: inline; }
 
 .services-area {
   background-color: #f4f6f7;

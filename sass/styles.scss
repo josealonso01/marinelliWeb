@@ -1479,6 +1479,9 @@ p {
         margin  : auto
     }
 }
+.modal-open{
+    padding-right: 0px !important;
+}
 
 .rowCards {
     display        : flex;
@@ -1562,7 +1565,6 @@ p {
     }
 }
 
-
 .modal-card {
     position: absolute;
 }
@@ -1601,53 +1603,6 @@ div#modal6 {
     margin  : auto;
     position: absolute;
     display : contents;
-}
-
-/* .about-areaMOBILE {
-    display: none;
-} */
-
-.card2 {
-    width        : 275px;
-    height       : 246px;
-    margin       : auto;
-    flex-shrink  : 0;
-    border-radius: 20px;
-    background   : #D6CCBF;
-    box-shadow   : 2px 2px 16px 0px rgba(0, 0, 0, 0.25);
-
-    h4 {
-        padding-top: 30px;
-        color      : #73020C;
-        font-family: Cormorant Garamond;
-        font-size  : 24px;
-        font-style : normal;
-        font-weight: 700;
-        line-height: 114.6%;
-    }
-
-    p {
-        color      : #727272;
-        font-family: Outfit;
-        font-size  : 13px;
-        font-style : normal;
-        font-weight: 400;
-        line-height: 140%;
-        /* 18.2px */
-    }
-
-    button {
-        color      : #73020C;
-        font-family: Outfit;
-        font-size  : 13px;
-        font-style : normal;
-        font-weight: 400;
-        line-height: 140%;
-        /* 18.2px */
-        width      : 43px;
-        border     : none;
-        background : none;
-    }
 }
 
 .modal.show .modal-dialog {
@@ -1755,6 +1710,7 @@ div#modal6 {
             font-style : normal;
             font-weight: 300;
             line-height: 114.6%;
+            display: inline;
         }
     }
 }
@@ -3035,8 +2991,8 @@ div#modal6 {
                 margin     : auto;
                 padding    : 0;
                 top        : 20px;
-                left: 0;
-                 white-space: nowrap;
+                left       : 0;
+                white-space: nowrap;
             }
 
             p {

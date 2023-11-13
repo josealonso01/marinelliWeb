@@ -1853,7 +1853,8 @@ div#modal6 {
       font-weight: 400;
       line-height: 20px;
       letter-spacing: 4.453px;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      right: 0%; }
   .about-area {
     padding-bottom: 0; }
     .about-area .carousel {
@@ -2134,7 +2135,7 @@ div#modal6 {
         margin: auto;
         padding: 0;
         top: 20px;
-        left: 0; }
+        left: 50%; }
       .call-action-area .text p {
         width: 252px;
         height: 13px;

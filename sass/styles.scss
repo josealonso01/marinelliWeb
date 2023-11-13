@@ -1747,7 +1747,7 @@ div#modal6 {
         line-height: 114.6%;
         /* 27.504px */
 
-        span {
+        p {
             margin     : auto;
             color      : #D1B06B;
             font-family: Rubik;
@@ -3035,7 +3035,8 @@ div#modal6 {
                 margin     : auto;
                 padding    : 0;
                 top        : 20px;
-                left       : 50%;
+                left: 0;
+                 white-space: nowrap;
             }
 
             p {

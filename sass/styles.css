@@ -236,10 +236,9 @@
 
 html,
 body {
-  overflow-x: hidden; }
-
-body {
-  width: 100%; }
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100%; }
 
 * {
   margin: 0;
@@ -1414,7 +1413,7 @@ div#modal6 {
   margin: auto;
   padding-top: 110px;
   margin-top: 150px;
-  margin-bottom: 150px;
+  margin-bottom: 80px;
   background-image: url("../assets/images/Rectangle 484 (1).png"), url("../assets/images/Rectangle 483 (1).png");
   background-repeat: no-repeat, no-repeat;
   padding-bottom: 80px;
@@ -1530,7 +1529,7 @@ div#modal6 {
     margin-top: 29px; }
 
 .contact-area {
-  padding-top: 95px;
+  padding-top: 0px;
   padding-bottom: 100px; }
   .contact-area .row {
     display: flex;
@@ -1544,8 +1543,10 @@ div#modal6 {
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
+    position: relative;
     align-items: flex-end;
-    flex-direction: row; }
+    flex-direction: row;
+    left: 2%; }
   .contact-area .call-action-content {
     width: 510px;
     border-right: 1px solid black;
@@ -1819,7 +1820,8 @@ div#modal6 {
       line-height: 20px;
       letter-spacing: 4.453px;
       text-transform: uppercase;
-      right: 0%; }
+      right: 0px;
+      left: 0px; }
   .about-area {
     padding-bottom: 0; }
     .about-area .carousel {
@@ -1990,7 +1992,7 @@ div#modal6 {
         text-align: center;
         font-family: Rubik;
         font-size: 10px;
-        margin-top: -40px;
+        margin-top: -30px;
         font-style: normal;
         font-weight: 300;
         line-height: 114.6%;
@@ -2020,7 +2022,7 @@ div#modal6 {
     display: flex;
     padding: 0;
     position: relative;
-    bottom: 670px;
+    bottom: 660px;
     margin: auto;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -2190,7 +2192,7 @@ div#modal6 {
       font-size: 16px;
       font-style: normal;
       font-weight: 700;
-      margin-left: -10%;
+      margin-left: -15%;
       line-height: 114.6%;
       /* 18.336px */ }
     .contact-area .text {
@@ -2201,7 +2203,7 @@ div#modal6 {
       font-weight: 400;
       line-height: normal;
       letter-spacing: 4.453px;
-      margin-left: -10%;
+      margin-left: -11%;
       text-transform: uppercase;
       padding: 9px; }
     .contact-area input#EMAIL {
@@ -2235,8 +2237,7 @@ div#modal6 {
       position: relative;
       align-items: center;
       justify-content: center;
-      align-content: center;
-      margin-inline: 25%; }
+      right: 7%; }
       .contact-area .call-action-form button {
         width: 68.754px;
         height: 24px;

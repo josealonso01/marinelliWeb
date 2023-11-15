@@ -329,12 +329,11 @@ sans-serif;
 html,
 body {
     overflow-x: hidden;
+    width     : 100%;
+    max-width : 100%;
 }
 
 
-body {
-    width: 100%;
-}
 
 * {
     margin            : 0;
@@ -1479,7 +1478,8 @@ p {
         margin  : auto
     }
 }
-.modal-open{
+
+.modal-open {
     padding-right: 0px !important;
 }
 
@@ -1710,7 +1710,7 @@ div#modal6 {
             font-style : normal;
             font-weight: 300;
             line-height: 114.6%;
-            display: inline;
+            display    : inline;
         }
     }
 }
@@ -1960,7 +1960,7 @@ div#modal6 {
     margin       : auto;
     padding-top  : 110px;
     margin-top   : 150px;
-    margin-bottom: 150px;
+    margin-bottom: 80px;
     background-image: url('../assets/images/Rectangle\ 484\ \(1\).png'),
         url('../assets/images/Rectangle\ 483\ \(1\).png');
     background-repeat: no-repeat,
@@ -2126,7 +2126,7 @@ div#modal6 {
 }
 
 .contact-area {
-    padding-top   : 95px;
+    padding-top   : 0px;
     padding-bottom: 100px;
 
     .row {
@@ -2143,9 +2143,10 @@ div#modal6 {
         flex-wrap      : nowrap;
         align-content  : center;
         justify-content: center;
+        position       : relative;
         align-items    : flex-end;
         flex-direction : row;
-
+        left           : 2%;
     }
 
     .call-action-content {
@@ -2584,7 +2585,8 @@ div#modal6 {
                                 line-height   : 20px;
                                 letter-spacing: 4.453px;
                                 text-transform: uppercase;
-                                right         : 0%;
+                                right         : 0px;
+                                left          : 0px;
                             }
                         }
                     }
@@ -2846,7 +2848,7 @@ div#modal6 {
                 text-align : center;
                 font-family: Rubik;
                 font-size  : 10px;
-                margin-top : -40px;
+                margin-top : -30px;
                 font-style : normal;
                 font-weight: 300;
                 line-height: 114.6%;
@@ -2894,7 +2896,7 @@ div#modal6 {
             display        : flex;
             padding        : 0;
             position       : relative;
-            bottom         : 670px;
+            bottom         : 660px;
             margin         : auto;
             flex-direction : column;
             flex-wrap      : nowrap;
@@ -3119,7 +3121,7 @@ div#modal6 {
             font-size  : 16px;
             font-style : normal;
             font-weight: 700;
-            margin-left: -10%;
+            margin-left: -15%;
             line-height: 114.6%;
             /* 18.336px */
         }
@@ -3132,7 +3134,7 @@ div#modal6 {
             font-weight   : 400;
             line-height   : normal;
             letter-spacing: 4.453px;
-            margin-left   : -10%;
+            margin-left   : -11%;
             text-transform: uppercase;
             padding       : 9px;
         }
@@ -3172,8 +3174,8 @@ div#modal6 {
             position       : relative;
             align-items    : center;
             justify-content: center;
-            align-content  : center;
-            margin-inline  : 25%;
+            right          : 7%;
+
 
             button {
                 width          : 68.754px;

@@ -2290,6 +2290,7 @@ div#modal6 {
 }
 
 
+
 .footer-area.footer-dark {
     background-color: #121212;
 
@@ -2357,6 +2358,45 @@ div#modal6 {
     &:hover {
         color           : #D6CCBF;
         background-color: #73020C;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1224px) {
+    .footer-area {
+        padding-top: 11px;
+
+        .copyright {
+
+            img {
+                position: relative;
+                top     : 5px;
+            }
+
+            p {
+                color          : #FFF;
+                font-family    : Rubik;
+                font-size      : 13px;
+                font-style     : normal;
+                font-weight    : 300;
+                line-height    : normal;
+                display        : inline-flex;
+                justify-content: space-around;
+                align-items    : center;
+                align-content  : center;
+                flex-wrap      : nowrap;
+                flex-direction : row;
+                margin-inline  : 1px;
+                position       : relative;
+                top            : 5px;
+            }
+
+            svg {
+                position: relative;
+                left    : 500px;
+                top     : -30px;
+
+            }
+        }
     }
 }
 

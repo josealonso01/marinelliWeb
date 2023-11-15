@@ -2285,4 +2285,12 @@ div#modal6 {
       position: relative;
       position: relative;
       left: -42%;
-      top: -145px; } }
+      top: -145px; }
+    .footer-area .createdby {
+      position: relative;
+      top: -19px;
+      left: 1%; }
+      .footer-area .createdby a {
+        position: relative;
+        top: 1px;
+        left: 1%; } }

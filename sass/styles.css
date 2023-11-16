@@ -2223,9 +2223,8 @@ div#modal6 {
       height: 40px !important;
       flex-shrink: 0;
       background: #D7D7D7;
-      left: 10px;
       position: relative;
-      left: 15%; }
+      left: 11%; }
     .contact-area button {
       background: #D1B06B;
       width: 125px;
@@ -2249,7 +2248,7 @@ div#modal6 {
       position: relative;
       align-items: center;
       justify-content: center;
-      right: 7%; }
+      right: 6%; }
       .contact-area .call-action-form button {
         width: 68.754px;
         height: 24px;

@@ -257,7 +257,7 @@ $(function () {
     .addEventListener('submit', function (event) {
       event.preventDefault();
 
-      btn.value = 'Sending...';
+      btn.value = 'Enviando..';
 
       const serviceID = 'default_service';
       const templateID = 'template_2de0oba';

@@ -260,12 +260,16 @@ $(function () {
       btn.value = 'Sending...';
 
       const serviceID = 'default_service';
-      const templateID = 'template_4fkkimr';
+      const templateID = 'template_2de0oba';
 
       emailjs.sendForm(serviceID, templateID, this).then(
         () => {
           btn.value = 'Send Email';
-          alert('Sent!');
+         swal({
+           title: 'Gracias',
+           text: 'Mensaje enviado con éxito!',
+           icon: 'success',
+         });
         },
         (err) => {
           btn.value = 'Send Email';
@@ -302,4 +306,3 @@ $(function () {
 
   //=====
 });
-

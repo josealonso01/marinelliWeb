@@ -1016,6 +1016,9 @@ p {
   background-color: #fff;
   padding-top: 100px;
   padding-bottom: 100px; }
+  .about-area .container {
+    padding-left: 0;
+    padding-right: 0; }
   .about-area .section-title .title {
     font-size: 44px;
     font-weight: 600;
@@ -1427,21 +1430,23 @@ div#modal6 {
     width: 421px;
     height: 421px;
     flex-shrink: 0; }
-  .testimonial-area .image .phone {
+  .testimonial-area .image .phoneMobile {
+    display: none; }
+  .testimonial-area .image .phoneDesktop {
     display: inline-flex;
     margin-bottom: 2px; }
-    .testimonial-area .image .phone .svgImg {
+    .testimonial-area .image .phoneDesktop .svgImg {
       width: 42px;
       height: 42px;
       flex-shrink: 0;
       background: #73020C;
       display: inline-block;
       padding: 1px; }
-      .testimonial-area .image .phone .svgImg svg {
+      .testimonial-area .image .phoneDesktop .svgImg svg {
         width: 27px;
         height: 27px;
         margin: 7px; }
-    .testimonial-area .image .phone .number {
+    .testimonial-area .image .phoneDesktop .number {
       width: 377px;
       height: 42px;
       flex-shrink: 0;
@@ -1742,7 +1747,7 @@ div#modal6 {
     position: absolute;
     top: 50px;
     width: 133px;
-    height: 194px;
+    height: 160px;
     background: rgba(115, 2, 12, 0.9);
     z-index: 8;
     padding: 12px 10px;
@@ -1996,15 +2001,14 @@ div#modal6 {
         line-height: 114.6%;
         margin-top: 23px; }
       .portfolio-area .section-title .text {
-        width: 280px;
-        height: 197.635px;
+        width: 345px;
         flex-shrink: 0;
         flex-shrink: 0;
         color: #FFF;
         text-align: center;
         font-family: Rubik;
-        font-size: 10px;
-        margin-top: -30px;
+        font-size: 12px;
+        margin-top: -50px;
         font-style: normal;
         font-weight: 300;
         line-height: 114.6%;
@@ -2013,7 +2017,7 @@ div#modal6 {
           display: inline;
           color: #D1B06B;
           font-family: Rubik;
-          font-size: 10px;
+          font-size: 12px;
           font-style: normal;
           font-weight: 300;
           line-height: 114.6%; }
@@ -2155,9 +2159,16 @@ div#modal6 {
     .testimonial-area .image img {
       width: 92px;
       height: 92px;
-      flex-shrink: 0; }
-    .testimonial-area .image .phone {
+      position: relative;
+      flex-shrink: 0;
+      right: 10%; }
+    .testimonial-area .image .phoneDesktop {
       display: none; }
+    .testimonial-area .image .phoneMobile {
+      display: inline-flex;
+      position: relative;
+      top: 15px;
+      left: 15%; }
     .testimonial-area .text h2 {
       color: #73020C;
       text-align: center;
@@ -2167,18 +2178,23 @@ div#modal6 {
       font-weight: 700;
       line-height: 114.6%;
       position: relative;
+      width: 200px;
       height: 40px;
-      margin: auto; }
+      flex-shrink: 0;
+      left: 40%;
+      bottom: 135px; }
     .testimonial-area .text p {
       color: #73020C;
       text-align: center;
       font-family: Cormorant Garamond;
-      font-size: 11px;
+      font-size: 14px;
       font-style: normal;
       font-weight: 700;
       line-height: 114.6%;
-      width: 280px;
-      height: 159px; }
+      width: 265px;
+      height: 159px;
+      position: relative;
+      bottom: 70px; }
   .contact-area {
     padding-top: 0; }
     .contact-area #sib-form {
@@ -2190,23 +2206,24 @@ div#modal6 {
       align-items: center;
       flex-direction: column; }
     .contact-area .call-action-content {
-      margin-inline: 5%;
+      margin-inline: 0%;
       display: flex;
       flex-direction: column;
       flex-wrap: nowrap;
       position: relative;
       align-content: center;
       align-items: center;
-      justify-content: center; }
+      justify-content: center;
+      border-bottom: 1px solid black;
+      border-right: none;
+      width: 279px; }
     .contact-area .action-title {
       color: #000;
       font-family: Cormorant Garamond;
       font-size: 16px;
       font-style: normal;
       font-weight: 700;
-      margin-left: -15%;
-      line-height: 114.6%;
-      /* 18.336px */ }
+      line-height: 114.6%; }
     .contact-area .text {
       color: #000;
       font-family: Rubik;
@@ -2215,7 +2232,6 @@ div#modal6 {
       font-weight: 400;
       line-height: normal;
       letter-spacing: 4.453px;
-      margin-left: -11%;
       text-transform: uppercase;
       padding: 9px; }
     .contact-area input#EMAIL {

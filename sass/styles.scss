@@ -1456,6 +1456,11 @@ p {
     padding-top     : 100px;
     padding-bottom  : 100px;
 
+    .container {
+        padding-left : 0;
+        padding-right: 0;
+    }
+
     .section-title {
         .title {
             font-size  : 44px;
@@ -1984,7 +1989,11 @@ div#modal6 {
             flex-shrink: 0;
         }
 
-        .phone {
+        .phoneMobile {
+            display: none;
+        }
+
+        .phoneDesktop {
             display      : inline-flex;
             margin-bottom: 2px;
 
@@ -2433,7 +2442,7 @@ div#modal6 {
                 position  : absolute;
                 top       : 50px;
                 width     : 133px;
-                height    : 194px;
+                   height: 160px;
                 background: rgba(115, 2, 12, 0.9);
                 z-index   : 8;
                 padding   : 12px 10px;
@@ -2836,15 +2845,14 @@ div#modal6 {
             }
 
             .text {
-                width      : 280px;
-                height     : 197.635px;
+                width      : 345px;
                 flex-shrink: 0;
                 flex-shrink: 0;
                 color      : #FFF;
                 text-align : center;
                 font-family: Rubik;
-                font-size  : 10px;
-                margin-top : -30px;
+                font-size  : 12px;
+                margin-top : -50px;
                 font-style : normal;
                 font-weight: 300;
                 line-height: 114.6%;
@@ -2854,7 +2862,7 @@ div#modal6 {
                     display    : inline;
                     color      : #D1B06B;
                     font-family: Rubik;
-                    font-size  : 10px;
+                    font-size  : 12px;
                     font-style : normal;
                     font-weight: 300;
                     line-height: 114.6%;
@@ -3048,11 +3056,20 @@ div#modal6 {
             img {
                 width      : 92px;
                 height     : 92px;
+                position   : relative;
                 flex-shrink: 0;
+                right      : 10%;
             }
 
-            .phone {
+            .phoneDesktop {
                 display: none;
+            }
+
+            .phoneMobile {
+                display : inline-flex;
+                position: relative;
+                top     : 15px;
+                left    : 15%;
             }
         }
 
@@ -3066,20 +3083,25 @@ div#modal6 {
                 font-weight: 700;
                 line-height: 114.6%;
                 position   : relative;
+                width      : 200px;
                 height     : 40px;
-                margin     : auto;
+                flex-shrink: 0;
+                left       : 40%;
+                bottom     : 135px;
             }
 
             p {
                 color      : #73020C;
                 text-align : center;
                 font-family: Cormorant Garamond;
-                font-size  : 11px;
+                font-size  : 14px;
                 font-style : normal;
                 font-weight: 700;
                 line-height: 114.6%;
-                width      : 280px;
+                width      : 265px;
                 height     : 159px;
+                position   : relative;
+                bottom     : 70px;
             }
         }
     }
@@ -3100,7 +3122,7 @@ div#modal6 {
         }
 
         .call-action-content {
-            margin-inline  : 5%;
+            margin-inline  : 0%;
             display        : flex;
             flex-direction : column;
             flex-wrap      : nowrap;
@@ -3108,6 +3130,9 @@ div#modal6 {
             align-content  : center;
             align-items    : center;
             justify-content: center;
+            border-bottom  : 1px solid black;
+            border-right   : none;
+            width          : 279px;
 
         }
 
@@ -3117,9 +3142,7 @@ div#modal6 {
             font-size  : 16px;
             font-style : normal;
             font-weight: 700;
-            margin-left: -15%;
             line-height: 114.6%;
-            /* 18.336px */
         }
 
         .text {
@@ -3130,7 +3153,6 @@ div#modal6 {
             font-weight   : 400;
             line-height   : normal;
             letter-spacing: 4.453px;
-            margin-left   : -11%;
             text-transform: uppercase;
             padding       : 9px;
         }

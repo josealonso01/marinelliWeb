@@ -1633,7 +1633,7 @@ div#modal6 {
     position: relative;
     top: 5px;
     right: 5%; }
-  .footer-area .copyright p {
+  .footer-area .copyright span {
     color: #FFF;
     font-family: Rubik;
     font-size: 13px;
@@ -1684,7 +1684,7 @@ div#modal6 {
     .footer-area .copyright img {
       position: relative;
       top: 5px; }
-    .footer-area .copyright p {
+    .footer-area .copyright span {
       color: #FFF;
       font-family: Rubik;
       font-size: 13px;
@@ -1819,26 +1819,35 @@ div#modal6 {
     width: 100%;
     height: 295px;
     flex-shrink: 0; }
-    .slider-area .bd-example .carousel .carousel-inner .carousel-item .carousel-caption .carousel-title {
-      display: none;
-      font-size: 24px;
-      line-height: 32px; }
-    .slider-area .bd-example .carousel .carousel-inner .carousel-item .carousel-caption .carousel-subtitle {
-      width: 281px;
-      height: 38px;
-      flex-shrink: 0;
-      margin: auto;
-      color: #FFF;
-      text-align: center;
-      font-family: Rubik;
-      font-size: 12px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 20px;
-      letter-spacing: 4.453px;
-      text-transform: uppercase;
-      right: 0px;
-      left: 0px; }
+    .slider-area .bd-example .carousel .carousel-inner .carousel-item .carousel-caption {
+      top: 60%; }
+      .slider-area .bd-example .carousel .carousel-inner .carousel-item .carousel-caption .carousel-title {
+        display: block;
+        font-size: 25px;
+        margin-bottom: 0px;
+        line-height: 32px;
+        position: relative;
+        bottom: 25px; }
+        .slider-area .bd-example .carousel .carousel-inner .carousel-item .carousel-caption .carousel-title p {
+          font-size: 45px;
+          position: relative;
+          bottom: 10px; }
+      .slider-area .bd-example .carousel .carousel-inner .carousel-item .carousel-caption .carousel-subtitle {
+        width: 281px;
+        height: 38px;
+        flex-shrink: 0;
+        margin: auto;
+        color: #FFF;
+        text-align: center;
+        font-family: Rubik;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 4.453px;
+        text-transform: uppercase;
+        right: 0px;
+        left: 0px; }
   .about-area {
     padding-bottom: 0; }
     .about-area .carousel {
@@ -1956,13 +1965,13 @@ div#modal6 {
         color: #727272;
         text-align: center;
         font-family: Outfit;
-        font-size: 8px;
+        font-size: 9px;
         font-style: normal;
         font-weight: 400;
         line-height: 140%;
         padding: 0;
-        width: 231px;
-        height: 212px;
+        width: 276px;
+        height: 161px;
         flex-shrink: 0;
         margin: auto; }
   .aboutText {
@@ -2286,7 +2295,7 @@ div#modal6 {
   .footer-area {
     width: 100%;
     height: 100%; }
-    .footer-area .copyright p {
+    .footer-area .copyright span {
       position: relative;
       display: -webkit-box;
       top: 25px;

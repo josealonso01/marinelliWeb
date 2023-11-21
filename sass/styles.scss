@@ -2271,7 +2271,7 @@ div#modal6 {
             right   : 5%;
         }
 
-        p {
+        span{
             color          : #FFF;
             font-family    : Rubik;
             font-size      : 13px;
@@ -2337,7 +2337,7 @@ div#modal6 {
                 top     : 5px;
             }
 
-            p {
+            span {
                 color          : #FFF;
                 font-family    : Rubik;
                 font-size      : 13px;
@@ -2442,7 +2442,7 @@ div#modal6 {
                 position  : absolute;
                 top       : 50px;
                 width     : 133px;
-                   height: 160px;
+                height    : 160px;
                 background: rgba(115, 2, 12, 0.9);
                 z-index   : 8;
                 padding   : 12px 10px;
@@ -2570,10 +2570,21 @@ div#modal6 {
 
 
                         .carousel-caption {
+                            top: 60%;
+
                             .carousel-title {
-                                display    : none;
-                                font-size  : 24px;
-                                line-height: 32px;
+                                display      : block;
+                                font-size    : 25px;
+                                margin-bottom: 0px;
+                                line-height  : 32px;
+                                position     : relative;
+                                bottom       : 25px;
+
+                                p {
+                                    font-size: 45px;
+                                    position : relative;
+                                    bottom   : 10px;
+                                }
                             }
 
                             .carousel-subtitle {
@@ -2771,13 +2782,13 @@ div#modal6 {
                 color      : #727272;
                 text-align : center;
                 font-family: Outfit;
-                font-size  : 8px;
+                font-size  : 9px;
                 font-style : normal;
                 font-weight: 400;
                 line-height: 140%;
                 padding    : 0;
-                width      : 231px;
-                height     : 212px;
+                width      : 276px;
+                height     : 161px;
                 flex-shrink: 0;
                 margin     : auto;
             }
@@ -3223,7 +3234,7 @@ div#modal6 {
         height: 100%;
 
         .copyright {
-            p {
+            span {
                 position   : relative;
                 display    : -webkit-box;
                 top        : 25px;

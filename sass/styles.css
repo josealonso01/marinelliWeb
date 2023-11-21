@@ -1975,7 +1975,9 @@ div#modal6 {
         flex-shrink: 0;
         margin: auto; }
   .aboutText {
-    display: none; }
+    display: block;
+    width: 100%;
+    font-size: 25px; }
   .header-hero {
     height: 650px; }
     .header-hero .header-content {
@@ -2178,6 +2180,8 @@ div#modal6 {
       position: relative;
       top: 15px;
       left: 15%; }
+      .testimonial-area .image .phoneMobile svg {
+        margin-inline: 5px; }
     .testimonial-area .text h2 {
       color: #73020C;
       text-align: center;
@@ -2301,6 +2305,12 @@ div#modal6 {
       top: 25px;
       padding-top: 15px;
       left: -6%; }
+      .footer-area .copyright span a {
+        position: relative;
+        display: -webkit-box;
+        top: 0%;
+        left: 3%;
+        color: #FFF; }
     .footer-area .copyright img {
       position: relative;
       left: 38%;

@@ -2271,7 +2271,7 @@ div#modal6 {
             right   : 5%;
         }
 
-        span{
+        span {
             color          : #FFF;
             font-family    : Rubik;
             font-size      : 13px;
@@ -2797,7 +2797,9 @@ div#modal6 {
 
 
     .aboutText {
-        display: none;
+        display  : block;
+        width    : 100%;
+        font-size: 25px;
     }
 
 
@@ -3081,6 +3083,10 @@ div#modal6 {
                 position: relative;
                 top     : 15px;
                 left    : 15%;
+
+                svg {
+                    margin-inline: 5px;
+                }
             }
         }
 
@@ -3240,6 +3246,14 @@ div#modal6 {
                 top        : 25px;
                 padding-top: 15px;
                 left       : -6%;
+
+                a {
+                    position: relative;
+                    display : -webkit-box;
+                    top     : 0%;
+                    left    : 3%;
+                    color   : #FFF;
+                }
             }
 
             img {

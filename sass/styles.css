@@ -874,7 +874,7 @@ p {
         width: 650px;
         height: 18px;
         position: relative;
-        right: 5%;
+        right: 15%;
         bottom: 25%; }
       .slider-area .bd-example .carousel .carousel-inner .carousel-item .carousel-caption .carousel-btn li {
         display: inline-block;
@@ -1648,7 +1648,7 @@ div#modal6 {
   .footer-area .copyright svg {
     position: relative;
     left: 5%;
-    top: 5px; }
+    top: 20px; }
 
 .back-to-top {
   font-size: 20px;

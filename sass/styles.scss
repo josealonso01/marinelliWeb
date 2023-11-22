@@ -2613,7 +2613,8 @@ div#modal6 {
             }
         }
     }
-    .card-title{
+
+    .card-title {
         margin-bottom: 0;
     }
 
@@ -2669,6 +2670,7 @@ div#modal6 {
                 font-style : normal;
                 font-weight: 700;
                 line-height: 114.6%;
+                padding    : 13px;
             }
 
             .card-title {
@@ -2680,8 +2682,6 @@ div#modal6 {
                 font-weight  : 700;
                 line-height  : 114.6%;
                 position     : relative;
-                margin-bottom: 0;
-                bottom       : 90%;
                 margin-bottom: 0;
 
             }
@@ -2788,7 +2788,7 @@ div#modal6 {
             }
 
             .modal-body {
-                color      : #727272;
+                color      : #423c3c;
                 text-align : center;
                 font-family: Outfit;
                 font-size  : 9px;

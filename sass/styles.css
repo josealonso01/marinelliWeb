@@ -1887,7 +1887,8 @@ div#modal6 {
         font-size: 12px;
         font-style: normal;
         font-weight: 700;
-        line-height: 114.6%; }
+        line-height: 114.6%;
+        padding: 13px; }
       .about-area .card .card-title {
         color: #73020C;
         text-align: center;
@@ -1897,8 +1898,6 @@ div#modal6 {
         font-weight: 700;
         line-height: 114.6%;
         position: relative;
-        margin-bottom: 0;
-        bottom: 90%;
         margin-bottom: 0; }
       .about-area .card button {
         position: absolute;
@@ -1969,7 +1968,7 @@ div#modal6 {
         flex-shrink: 0;
         bottom: 14px; }
       .about-area .modal-content .modal-body {
-        color: #727272;
+        color: #423c3c;
         text-align: center;
         font-family: Outfit;
         font-size: 9px;

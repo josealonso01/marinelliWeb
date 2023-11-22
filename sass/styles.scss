@@ -2676,14 +2676,14 @@ div#modal6 {
                 font-style : normal;
                 font-weight: 700;
                 line-height: 114.6%;
-                top        : -43%;
                 position   : relative;
+                bottom     : 40%;
 
             }
 
             button {
                 position : absolute;
-                right    : 0%;
+                right    : -2%;
                 font-size: 18px;
                 top      : 20%;
 
@@ -2771,14 +2771,14 @@ div#modal6 {
             button {
                 color      : #BB9F64;
                 font-family: Outfit;
-                font-size  : 8px;
+                font-size  : 30px;
                 font-style : normal;
                 font-weight: 400;
                 line-height: 140%;
-                /* 11.2px */
-                width      : 4px;
-                height     : 10px;
+                height     : 15px;
+                position   : relative;
                 flex-shrink: 0;
+                bottom     : 14px;
             }
 
             .modal-body {

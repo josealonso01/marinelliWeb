@@ -2445,7 +2445,6 @@ div#modal6 {
                 height    : 160px;
                 background: rgba(115, 2, 12, 0.9);
                 z-index   : 8;
-                padding   : 12px 10px;
                 right     : -4%;
             }
 
@@ -2459,12 +2458,15 @@ div#modal6 {
                         text-align : end;
                         border     : 0;
                         margin     : 0;
+                        top        : 0px;
                         color      : #ECE6D3;
                         font-family: Rubik;
                         font-size  : 10px;
                         font-style : normal;
                         font-weight: 400;
                         line-height: normal;
+                        right      : 5%;
+
 
                         &::before {
                             display: none;
@@ -2680,9 +2682,10 @@ div#modal6 {
             }
 
             button {
-                position: absolute;
-                right   : -2%;
-                top     : 25%;
+                position : absolute;
+                right    : 0%;
+                font-size: 18px;
+                top      : 20%;
 
                 span {
                     display: none;

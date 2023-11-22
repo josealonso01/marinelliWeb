@@ -1895,7 +1895,9 @@ div#modal6 {
         font-weight: 700;
         line-height: 114.6%;
         position: relative;
-        bottom: 40%; }
+        margin-bottom: 0;
+        bottom: 90%;
+        margin-bottom: 0; }
       .about-area .card button {
         position: absolute;
         right: -2%;
@@ -1948,10 +1950,11 @@ div#modal6 {
         text-align: center;
         font-family: Cormorant Garamond;
         font-size: 12px;
+        position: relative;
         font-style: normal;
         font-weight: 700;
         line-height: 114.6%;
-        /* 13.752px */ }
+        left: 6%; }
       .about-area .modal-content button {
         color: #BB9F64;
         font-family: Outfit;

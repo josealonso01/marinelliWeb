@@ -1849,6 +1849,8 @@ div#modal6 {
         text-transform: uppercase;
         right: 0px;
         left: 0px; }
+  .card-title {
+    margin-bottom: 0; }
   .about-area {
     padding-bottom: 0; }
     .about-area .carousel {
